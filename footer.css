@@ -1,0 +1,138 @@
+
+div>div> #logos{
+    display: flex;
+    width: 220px;
+    justify-content: space-evenly;
+}
+
+#logos a{
+    cursor: pointer;
+    color: black;
+    font-size: 30px;
+}
+div>div> #innerbox{
+    width: 220px;
+    height: 130px;
+    /* border: 1px solid red; */
+    background-color: black;
+    border-radius: 0.2rem;
+}
+#DSW{
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgb(245, 199, 63);
+    margin-left: 15px;
+    margin-top: 15px;
+    color: white;
+}
+#innerbox-1{
+    display: flex;
+    /* margin-left: 10px; */
+}
+#button-1{
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: rgb(245, 199, 63);
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+#button-1>b>a{
+    text-decoration: none;
+    color: black;
+}
+#container-1{
+    display: flex;
+    margin-left: 50px;
+
+}
+#categories{
+    display: flex;
+    /* justify-content: space-evenly; */
+
+}
+#categories-0 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+#categories-0>p{
+    cursor: pointer;
+}
+#categories-1{
+    margin-top: 40px;
+    width: 150px;
+    margin-left: 40px;
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+#categories-1>p{
+    cursor: pointer;
+}
+#categories-2{
+    margin-top: 40px;
+    margin-left: 40px;
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+#categories-2>p{
+    cursor: pointer;
+}
+#Explore{
+    display: flex;
+    margin-left: 50px;
+}
+#explore-0>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 150px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+    
+}
+#explore-1{
+    margin-top: 40px;
+    width: 200px;
+   
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+#explore-1 p{
+    /* border: 1px solid red; */
+    width: 100px;
+    cursor: pointer;
+
+}
+#explore-2{
+    margin-top: 40px;
+    width: 250px;
+   
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+#explore-2 p{
+    width: 180px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+}
+.free_shipping{
+    color: white;
+    margin-left: 5px;
+}
+.copyright{
+    width: 170px;
+    font-size: 15px;
+    color: rgb(183, 181, 181);
+}
+#container{
+    display: flex;
+    /* margin-top: 50px; */
+    padding: 50px;
+}

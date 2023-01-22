@@ -1,0 +1,1814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deals</title>
+ <link rel="stylesheet" href="deals.css">
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="footer.css">
+<link rel="shortcut icon" href="logo-black.png" type="image/x-icon">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 50px;
+}
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.part1 input{
+    height: 30px;
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: -50px;
+}
+.part1>div{
+   font-size: 40px;
+   display: flex;
+   align-items: center;
+}
+.part1>div>div{
+    font-size: 13px;
+    text-align: center;
+}
+.container1{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid rgb(114, 100, 100);
+}
+.container1>ul{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content:space-around;
+    
+}
+.container1>ul>li{
+    padding: 10px;
+    list-style: none;
+}
+.container1>ul>li:hover{
+    /* text-decoration: underline; */
+    border-bottom: 2px solid black;
+}
+/* .container1>ul>li */
+.container1>ul>li>a{
+   color:rgb(70, 67, 67);
+   text-decoration: none;
+}
+.megamenu{
+    position: absolute;
+    /* border: 1px solid; */
+    width: 100%;
+    top: 100%;
+    right: 0%;
+    left: 0%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+.container1>ul>li:hover .megamenu{
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+    background-color: white;
+}
+li,ul{
+    list-style: none;
+}
+.shoessize button{
+    display: block;
+    padding: 5px;
+}
+.shoessize{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.megamenuitems ul li{
+    padding: 10px;
+}
+.megamenuitems h4{
+    padding: 10px;
+}
+.megamenuitems ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#bannerimg{
+    position: relative;
+}
+#bannerimg>img{
+   width: 100%;
+}
+#bannerimg #bannarbtn1{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    padding: 10px 20px;
+    border: none;
+    font-weight:bold;
+    border-radius: 5px;
+}
+#bannerimg #bannarbtn2{
+    position: absolute;
+    top: 60%;
+    right: 33%;
+    transform: translate(-50%,-50%);
+    padding: 10px 30px;
+    border: none;
+    font-weight:bold;
+    border-radius: 5px;
+}
+#bannerimg #bannerdata{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+#bannerdata h1{
+    font-size: 42px;
+    width: 320px;
+}
+/* part4 */
+#part4{
+    display: flex;
+    margin: auto;
+    justify-content:space-evenly;
+}
+#part4 div{
+ width: 32%;
+ text-align: center;
+}
+#part4 img{
+    width: 100%;
+}
+
+
+#bannerimg2{
+    position: relative;
+    border: 1px dotted;
+}
+#bannerimg2 #bannarbtn21{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    padding: 10px 20px;
+    border: none;
+    font-weight:bold;
+    border-radius: 5px;
+}
+#bannerimg2 #bannarbtn22{
+    position: absolute;
+    top: 60%;
+    right: 33%;
+    transform: translate(-50%,-50%);
+    padding: 10px 30px;
+    border: none;
+    font-weight:bold;
+    border-radius: 5px;
+}
+#bannerimg2 #bannerdata2{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+#bannerdata2 h1{
+    font-size: 42px;
+    width: 320px;
+}
+#bannerimg2 img{
+    width: 100%;
+}
+
+.slide>div{
+    width: 100%;
+}
+.slide {
+    width: 85%;
+    margin: auto;
+   text-align: center;
+}
+.slide img{
+    width: 100%;
+}
+.slidep{
+    color: grey;
+}
+.slidep2{
+    font-size: 13px;
+    color: black;
+    font-weight: 1000;
+}
+
+
+
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="part1">
+                <a href="index.html"><img style="height:50px;width: 70px;display:block;margin-right:100px; cursor: pointer; ;" src="logo-black.png" alt=""></a>
+                <input style="display: block;"type="search" placeholder="Search styles,brands & more">
+            </div>
+            <div class="part1"> 
+                <div><ion-icon name="person"></ion-icon>
+                <div style="display: inline;"><a href="signin.html"><button style="border: none; cursor: pointer;">SignIn</button></a></div>
+            </div>
+                <div><ion-icon name="pin"></ion-icon>
+                    <div style="display: inline;">Find a store</div></div>
+                <div><ion-icon name="cart"></ion-icon>
+                    <div style="display: inline;"><a href="cart.html"><button style="border: none; cursor: pointer;">Cart</button></a></div>
+            </div>
+
+        </div>
+    </header>
+    <hr style="color: rgb(137, 142, 146);">
+    <div class="container1">
+            <ul>
+               <li>
+                <a href="women.html">Women</a>
+                <div class="megamenu">
+                    <div class="megamenuitems">
+                        <h3>Shoes</h3>
+                        <ul>
+                            <li><a href="women.html"> All Women's Shoes</a></li>
+                            <li><a href="women.html"> Boots & Booties</a></li>
+                            <li><a href="women.html">Heels</a></li>
+                            <li><a href="women.html">Flats</a></li>
+                            <li>Athletic & Sneakers</li>
+                            <li>Sandals</li>
+                            <li>Loafers & Oxfards</li>
+                            <li>Wedges</li>
+                            <li>Mules & Slides</li>
+                            <li>Comfort Shoes</li>
+                            <li>Slippers</li>
+                            <li>Hiking & Trail Shoes</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        <h3>Boots</h3>
+                        <ul>
+                            <li>All Boots & Booties</li>
+                            <li>Dress Boots & Booties</li>
+                            <li>Casual Boots & Booties</li>
+                            <li>Platform Boots & Booties</li>
+                            <li>Combat Boots</li>
+                            <li>Cozy</li>
+                            <li>Tall & Riding Boots</li>
+                            <li>Snow & Cold Weather Boots</li>
+                            <h3>Athletic & Sneakers</h3>
+                            <li>All Athletic Shoes & Sneakers</li>
+                            <li>Fashion & LifeStyle Sneakers</li>
+                            <li>Running Shoes</li>
+                            <li>slip-On Sneakers </li>
+                            <li>Retro Sneakers</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        <h3>Featured Shops</h3>
+                        <ul>
+                            <li>Activewear & Clothing</li>
+                            <li>Designer & Luxury</li>
+                            <li>Work & Safety Shoes</li>
+                            <li>Fashion & Resource</li>
+                            <h3>Shop by Occasion</h3>
+                            <li>Wedding & Evening</li>
+                            <li>Vacation & Travel</li>
+                            <li>Explore Occasion Shop</li>
+                            <li style="font-weight: bold;">FIRSTSTEP Deals</li>
+                            <li style="color:red;font-weight: bold;">Clearance</li>
+                            <li style="font-weight: bold;">New Arrivals</li>
+                            <li style="font-weight: bold;">The Boot Shop</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        <h3>Shop By Shoe Size</h3>
+                        &nbsp;
+                        <div class="shoessize">
+                            <button>4</button>
+                            <button>4.5</button>
+                            <button>5</button>
+                            <button>5.5</button>
+                            <button>6</button>
+                            <button>6.5</button>
+                            <button>7</button>
+                            <button>7.5</button>
+                            <button>8</button>
+                            <button>8.5</button>
+                            <button>9.5</button>
+                            <button>10</button>
+                            <button>10.5</button>
+                            <button>11</button>
+                            <button>11.5</button>
+                            <button>12</button>
+                            <button>13</button>  
+                        </div>
+                        <ul>
+                            <h3>Extended Sizes</h3>
+                            <li>Narrow Width</li>
+                            <li>Wide Width</li>
+                            <li>wide Calf</li>
+                        </ul>
+                    </div>
+                </div>
+               </li>
+               
+               <li>
+                <a href="men.html">Men</a>
+                <div class="megamenu">
+                    <div class="megamenuitems">
+                        <h3>Shoes</h3>
+                        <ul>
+                            <li>All Men's Shoes</li>
+                            <li>Boots & Booties</li>
+                            <li>Boots</li>
+                            <li>Dress Shoes</li>
+                            <li>Athletic & Sneakers</li>
+                            <li>Casual Shoes</li>
+                            <li>Slippers</li>
+                            <li>Sandals & Slides</li>
+                            <li>Hiking Shoes & Boots</li>
+                            <li>Loafers & Slip-On Shoes</li>
+                            <li>Oxfords & Lace-Ups</li>
+                            <li>Comfort Shoes</li>
+                            <li>Work Boots & Shoes</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        <h3>Athletic & Sneakers</h3>
+                        <ul>
+                            <li>Athletic & Sneakers</li>
+                            <li>Running Shoes</li>
+                            <li>Walking Shoes</li>
+                            <li>Fashion & LifeStyle Sneakers</li>
+                            <li>High Top Sneakers</li>
+                            <li>Retro Sneakers</li>
+                            <li>Activewear & Clothing</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        <h3>Boots</h3>
+                        <ul>
+                            <li>All Men's Shoes</li>
+                            <li>Lace-up & Combat Boots</li>
+                            <li>Chelsea & Chukka Boots</li>
+                            <li>Winter & Snow Boots</li>
+                            <li>Sneaker Boots</li>
+                            <li style="font-weight: bold;">FIRSTSTEP Deals</li>
+                            <li style="color:red;font-weight: bold;">Clearance</li>
+                            <li style="font-weight: bold;">New Arrivals</li>
+                            <li style="font-weight: bold;">The Boot Shop</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        <h3>Shop By Shoe Size</h3>
+                        &nbsp;
+                        <div class="shoessize">
+                            <button>4</button>
+                            <button>4.5</button>
+                            <button>5</button>
+                            <button>5.5</button>
+                            <button>6</button>
+                            <button>6.5</button>
+                            <button>7</button>
+                            <button>7.5</button>
+                            <button>8</button>
+                            <button>8.5</button>
+                            <button>9.5</button>
+                            <button>10</button>
+                            <button>10.5</button>
+                            <button>11</button>
+                            <button>11.5</button>
+                            <button>12</button>
+                            <button>13</button>  
+                        </div>
+                        <ul>
+                            <h3>Extended Sizes</h3>
+                            <li>Narrow Width</li>
+                            <li>Wide Width</li>
+                            <li>wide Calf</li>
+                        </ul>
+                    </div>
+                </div>
+               
+            
+               </li>
+               <li><a href="kids.html">Kids</a>
+                <div class="megamenu">
+                    <div class="megamenuitems">
+                        <h3>Kids Shop By Size</h3>
+                        <ul>
+                            <li>Baby Shoes(1-3.5)</li>
+                            <li>Toddler Shoes (4T-10.5T)</li>
+                            <li>Little Kid Shoes (11M-3Y)</li>
+                            <li>Big Kid Shoes (3.5Y-7Y)</li>
+                            <h3>Top Brands</h3>
+                            <li>Adidas</li>
+                            <li>Vans</li>
+                            <li>Puma</li>
+                            <li>New Balance</li>
+                            <li>Dr.Martens</li>
+                            <li>Timberland</li>
+                            <li>Mix No 6</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        <h3>Girls Shoes</h3>
+                        <ul>
+                            <li>All Girls Shoes</li>
+                            <li>Athletic Shoes & Sneakers</li>
+                            <li>Boots</li>
+                            <li>Rain & Cold Weather Boots</li>
+                            <li>Dress Boots</li>
+                            <li>Slip-On Shoes</li>
+                            <li>Sandels & Flip Shoes</li>
+                            <h3>Boys Shoes</h3>
+                            <li>All Boys  Shoes</li>
+                            <li>All Athletic Shoes & Sneakers</li>
+                            <li>Rain & Cold Weather Boots</li>
+                            <li>Dress Boots</li>
+                            <li>Slip-On Shoes</li>
+                            <li>Sandels & Flip Shoes</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        <h3>All  Kids</h3>
+                        <ul>
+                            <li>All Kids Shoes</li>
+                            <li>Athletic Shoes & Sneakers</li>
+                            <li>Boots</li>
+                            <li>Dress Shoes</li>
+                            <li>Sandels & Flip Flops</li>
+                            <li>Outdoor & Water Shoes</li>
+                            <li>Clothing &Accessories</li>
+                            <li>Socks</li>
+                            <li>Tween Shoes</li>
+                            <li>uniform Shoes</li>
+                            <li>Character & Light-Up</li>
+                            <li>Wide Width Shoes</li>
+                            <li style="color:red;font-weight: bold;">Clearance</li>
+                            <li style="font-weight: bold;">New Arrivals</li>
+                            <li style="font-weight: bold;">Kid's Shoe Size Chart</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                      <img style="height: 60%;width: 300px;" src="https://images.dsw.com/is/image/DSWShoes/11242022_nav_deals_editorial.png?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+                        <ul>
+                            <h2>New Markdowns,Right This Way</h2>
+                            <li>All the offers happening right now,all in one spot.</li>
+                            <li><a style="color: black;" href="#">shop Now</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            
+                </li>
+                <li><a href="#">Accessories & Clothing</a>
+                    <div class="megamenu">
+                        <div class="megamenuitems">
+                            <h3>Women's Bags</h3>
+                            <ul>
+                                <li>All Handbags</li>
+                                <li>Crossbody Bags</li>
+                                <li>Evening & Wedding Bags</li>
+                                <li>Leather Bags</li>
+                                <h3>tote Bags</h3>
+                                <li>Belt Bags</li>
+                                <li>Stachels</li>
+                                <li>BackPacks</li>
+                                <li>Shoulder Bags</li>
+                            </ul>
+                        </div>
+                        <div class="megamenuitems">
+                            <h3>Women's Socks & Accessories</h3>
+                            <ul>
+                                <li>All Accessories</li>
+                                <li>All Socks & Hosiery</li>
+                                <li>Hats,Scarves & More</li>
+                                <li>Sunglasses</li>
+                                <h3>Men's Socks & Accessiores</h3>
+                                <li>All Accessories</li>
+                                <li>All Socks</li>
+                                <h3>Kid's Socks & Accessories </h3>
+                                <li>All Accessories</li>
+                                <li>All Socks</li>
+                            </ul>
+                        </div>
+                        <div class="megamenuitems">
+                            <h3>Activewear & Clothing</h3>
+                            <ul>
+                                <li>All Women's Clothing </li>
+                                <li>All Men's Clothing</li>
+                                <li>Bottoms</li>
+                                <li>Tops & Jackets</li>
+                                <li>Workout Accessories</li>
+                                <li style="color:red;font-weight: bold;">Clearance</li>
+                                <li style="font-weight: bold;">New Arrivals</li>
+                            </ul>
+                        </div>
+                        <div class="megamenuitems">
+                          <img style="height: 70%;width: 300px;" src="https://images.dsw.com/is/image/DSWShoes/11242022_nav_deals_editorial.png?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+                            <ul>
+                                <h2>New Markdowns,Right This Way</h2>
+                                <li>All the offers happening right now,all in one spot.</li>
+                                <li><a style="color: black;" href="#">shop Now</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                
+                    </li>
+               <li><a href="#">Athletic & Sneakers</a>
+            
+                <div class="megamenu">
+                    <div class="megamenuitems">
+                        <h3>Shop by Gender</h3>
+                        <ul>
+                            <li>Women's Athletic Shoes</li>
+                            <li>Men's Athlectic & Sneakers</li>
+                            <li>Kid's Athlectic & Sneakers</li>
+                            <h3>Trending Athletic Brands</h3>
+                            <li>Adidas</li>
+                            <li>New Balance</li>
+                            <li>Brooks</li>
+                            <li>Vans</li>
+                            <li>Puma</li>
+                            <li>Asics</li>
+                            <li>Converse</li>
+                            <li>Saucony</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        <h3>Fashion & Athleisure</h3>
+                        <ul>
+                            <li>Slip-On Sneakers</li>
+                            <li>High Top Sneakers</li>
+                            <li>Retro Sneeakers</li>
+                            <li>Platform & Wedge</li>
+                            <li>Court Shoes</li>
+                            <li>Canvas Shoes</li>
+                            <li>Explore All Fashion & Athleisure</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        <h3>Running Shop</h3>
+                        <ul>
+                            <li>All Running Shoes</li>
+                            <li>Road & Treadmill Running Shoes</li>
+                            <li>Trail Running Shoes</li>
+                            <li>Clothing,Socks & Accessories</li>
+                            <li>How to Choose Running Shoes</li>
+                            <li>Explore Running Shoes</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        <h3>Fitness & Active</h3>
+                        &nbsp;
+                        
+                        <ul>
+                            <li>Workout Clothes</li>
+                            <li>Workout Accessories</li>
+                            <li>Running Shoes </li>
+                            <li>Walking Shoes</li>
+                            <li>Basketball Shoes</li>
+                            <li>Skate Shoes</li>
+                            <li>Traning & Gym Shoes</li>
+                            <li>Hiking & Trail</li>
+                            <li>Golf Shoes</li>
+                            <li>Explore All Performance Shoes</li>
+                            <li style="color:red;font-weight: bold;">Clearance</li>
+                                <li style="font-weight: bold;">New Arrivals</li>
+                        </ul>
+                    </div>
+                </div>
+
+                </li>
+               <li><a href="#">Brands</a>
+            
+                <div class="megamenu">
+                    <div class="megamenuitems">
+                        <h3>Shoes</h3>
+                        <ul>
+                            <li>All Women's Shoes</li>
+                            <li>Boots & Booties</li>
+                            <li>Heels</li>
+                            <li>Flats</li>
+                            <li>Athletic & Sneakers</li>
+                            <li>Sandals</li>
+                            <li>Loafers & Oxfards</li>
+                            <li>Wedges</li>
+                            <li>Mules & Slides</li>
+                            <li>Comfort Shoes</li>
+                            <li>Slippers</li>
+                            <li>Hiking & Trail Shoes</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        <h3>Boots</h3>
+                        <ul>
+                            <li>All Boots & Booties</li>
+                            <li>Dress Boots & Booties</li>
+                            <li>Casual Boots & Booties</li>
+                            <li>Platform Boots & Booties</li>
+                            <li>Combat Boots</li>
+                            <li>Cozy</li>
+                            <li>Tall & Riding Boots</li>
+                            <li>Snow & Cold Weather Boots</li>
+                            <h3>Athletic & Sneakers</h3>
+                            <li>All Athletic Shoes & Sneakers</li>
+                            <li>Fashion & LifeStyle Sneakers</li>
+                            <li>Running Shoes</li>
+                            <li>slip-On Sneakers </li>
+                            <li>Retro Sneakers</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        <h3>Featured Shops</h3>
+                        <ul>
+                            <li>Activewear & Clothing</li>
+                            <li>Designer & Luxury</li>
+                            <li>Work & Safety Shoes</li>
+                            <li>Fashion & Resource</li>
+                            <h3>Shop by Occasion</h3>
+                            <li>Wedding & Evening</li>
+                            <li>Vacation & Travel</li>
+                            <li>Explore Occasion Shop</li>
+                            <li style="font-weight: bold;">FIRSTSTEP Deals</li>
+                            <li style="color:red;font-weight: bold;">Clearance</li>
+                            <li style="font-weight: bold;">New Arrivals</li>
+                            <li style="font-weight: bold;">The Boot Shop</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        <h3>Shop By Shoe Size</h3>
+                        &nbsp;
+                        <div class="shoessize">
+                            <button>4</button>
+                            <button>4.5</button>
+                            <button>5</button>
+                            <button>5.5</button>
+                            <button>6</button>
+                            <button>6.5</button>
+                            <button>7</button>
+                            <button>7.5</button>
+                            <button>8</button>
+                            <button>8.5</button>
+                            <button>9.5</button>
+                            <button>10</button>
+                            <button>10.5</button>
+                            <button>11</button>
+                            <button>11.5</button>
+                            <button>12</button>
+                            <button>13</button>  
+                        </div>
+                        <ul>
+                            <h3>Extended Sizes</h3>
+                            <li>Narrow Width</li>
+                            <li>Wide Width</li>
+                            <li>wide Calf</li>
+                        </ul>
+                    </div>
+                </div>
+            
+            
+               </li>
+               <li ><a style="color: rgb(168, 48, 48);" href="#">Clearance</a>
+                <div class="megamenu">
+                    <div class="megamenuitems">
+                        <h3>Women's Bags</h3>
+                        <ul>
+                            <li>All Handbags</li>
+                            <li>Crossbody Bags</li>
+                            <li>Evening & Wedding Bags</li>
+                            <li>Leather Bags</li>
+                            <h3>tote Bags</h3>
+                            <li>Belt Bags</li>
+                            <li>Stachels</li>
+                            <li>BackPacks</li>
+                            <li>Shoulder Bags</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        <h3>Women's Socks & Accessories</h3>
+                        <ul>
+                            <li>All Accessories</li>
+                            <li>All Socks & Hosiery</li>
+                            <li>Hats,Scarves & More</li>
+                            <li>Sunglasses</li>
+                            <h3>Men's Socks & Accessiores</h3>
+                            <li>All Accessories</li>
+                            <li>All Socks</li>
+                            <h3>Kid's Socks & Accessories </h3>
+                            <li>All Accessories</li>
+                            <li>All Socks</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        <h3>Activewear & Clothing</h3>
+                        <ul>
+                            <li>All Women's Clothing </li>
+                            <li>All Men's Clothing</li>
+                            <li>Bottoms</li>
+                            <li>Tops & Jackets</li>
+                            <li>Workout Accessories</li>
+                            <li style="color:red;font-weight: bold;">Clearance</li>
+                            <li style="font-weight: bold;">New Arrivals</li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                      <img style="height: 70%;width: 300px;" src="https://images.dsw.com/is/image/DSWShoes/11242022_nav_deals_editorial.png?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+                        <ul>
+                            <h2>New Markdowns,Right This Way</h2>
+                            <li>All the offers happening right now,all in one spot.</li>
+                            <li><a style="color: black;" href="#">shop Now</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            
+                </li>
+               <li><a style="color: rgb(160, 38, 38);" href="deals.html">Deals</a></li>
+            </ul>
+    </div>
+<main>
+<h1 style="text-align: center;">The Best Deals At DSW
+</h1>
+<div>
+    <div class="shop-under">
+<div>
+    <h2 >
+        New Markdowns,<br> Right This Way
+    </h2>
+</div>
+<div class="shop-div">
+    <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_w-clearance?impolicy=qlt-medium&imwidth=300&imdensity=1" alt="">
+    <p>Women's</p>
+    <h5>Shop 
+    Clearance</h5>
+</div>
+
+<div class="shop-div">
+    <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_m-clearance?impolicy=qlt-medium&imwidth=300&imdensity=1" alt="">
+    <p>Men's</p>
+    <h5>Shop 
+    Clearance</h5>
+</div>
+<div class="shop-div">
+    <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_k-clearance?impolicy=qlt-medium&imwidth=300&imdensity=1" alt="">
+    <p>Kid's</p>
+    <h5>Shop 
+    Clearance</h5>
+</div>
+<div class="shop-div">
+    <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_under75?impolicy=qlt-medium&imwidth=300&imdensity=1" alt="">
+    <p>Women's</p>
+    <h5>Shop 
+    Under $75 </h5>
+</div>
+<div class="shop-div">
+    <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_under75?impolicy=qlt-medium&imwidth=300&imdensity=1" alt="">
+    <p>Men's</p>
+    <h5>Shop 
+    Under $70</h5>
+</div>
+<div class="shop-div">
+    <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_under50?impolicy=qlt-medium&imwidth=300&imdensity=1" alt="">
+    <p>Kid's</p>
+    <h5>Shop 
+    Under $50</h5>
+</div>
+
+    </div>
+</div>
+
+<h2 style="text-align: center;font-size: xx-large;">
+    Shop Women’s Can’t-Miss Deals
+</h2>
+<div class="wcm-main">
+   
+    <div >
+   
+    </div>
+<div class="wcm">
+<img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_under40?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+
+<h2>
+    Sandals Under $40  
+</h2>
+
+<a style="color: black; font-weight: bold;" href="#">
+    Shop Now
+</a>
+
+</div>
+
+<div class="wcm">
+    <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_under60?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+    
+    <h2>
+        Heels Under $40  
+    </h2>
+    
+    <a style="color: black; font-weight: bold;" href="#">
+        Shop Now
+    </a>
+    
+    </div>
+
+    <div class="wcm">
+        <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_under70?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+        
+        <h2>
+            Women’s Boots Under $40 
+        </h2>
+        
+        <a style="color: black; font-weight: bold;" href="#">
+            Shop Now
+        </a>
+        
+        </div>
+<div class="wcm">
+<img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_under75?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+
+<h2>
+    Athletic & Sneakers Under $40  
+</h2>
+
+<a style="color: black; font-weight: bold;" href="#">
+    Shop Now
+</a>
+
+</div>
+
+</div>
+
+
+<div style="margin-top: 2%;">
+    <h1 style="text-align: center;">Hot-&-Selling-Fast Clearance Styles <a style="font-size:medium;color: black;" href="#">Shop Men’s</a></h1>
+    
+</div>
+
+<!-- slider one -->
+
+<section class="product"> 
+
+    <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+    <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+   
+    <div class="product-container">
+       <!-- first card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 180px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/478588_002_ss_01?impolicy=colpg&imwidth=800&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small">Stuart Weitzman</h2>
+                <p class="product-short-description" style="font-size: small;">Lynelle Bootie</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$174.98</span><span class="actual-price" style="font-size: small;">$459.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+
+<!-- second card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 180px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/468202_001_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;">Totes</h2>
+                <p class="product-short-description" style="font-size: small;"  >Snow Fall 2 Snow Boot</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$29.98</span><span class="actual-price" style="font-size: small;">39.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+
+        <!-- 3rd card  -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 170px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/dsw12prod3080080_010_ss_01?impolicy=colpg&imwidth=500&imdensity=1" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;">Minnetonka</h2>
+                <p class="product-short-description" style="font-size: small;"  style="font-size: small;"  >Jr. Trapper Moccasin Slipper</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$34.98</span><span class="actual-price" style="font-size: small;">$39.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+
+<!-- 4th card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/499992_001_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;">Bearpaw</h2>
+                <p class="product-short-description" style="font-size: small;">Koko Snow Boot</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$44.98</span><span class="actual-price" style="font-size: small;">$84.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 5th card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/428531_100_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Teva</h2>
+                <p class="product-short-description" style="font-size: small;">Midform Universal Platform Sandal...</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$49.98</span><span class="actual-price" style="font-size: small;">$64.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- sixth card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 160px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/480261_001_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Crown Vintage</h2>
+                <p class="product-short-description" style="font-size: small;">Aaliya Sandal</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$23.98</span><span class="actual-price" style="font-size: small;">$44.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- seventh card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 180px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/468964_101_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Vince Camuto</h2>
+                <p class="product-short-description" style="font-size: small;">Bibestie Bootie</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$44.98</span><span class="actual-price" style="font-size: small;">$99.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 8th card  -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 180px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/500204_060_ss_01?impolicy=colpg&imwidth=500&imdensity=1" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Wolverine</h2>
+                <p class="product-short-description" style="font-size: small;">Merlin Work Boot</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$84.98</span><span class="actual-price" style="font-size: small;">$143.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 9th card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/518736_465_ss_01?impolicy=colpg&imwidth=800&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Skechers</h2>
+                <p class="product-short-description" style="font-size: small;">Reggae Slim Stretch Slinky Sandal</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$29.98</span><span class="actual-price" style="font-size: small;">$44.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 10th card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/468251_163_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Vala Pump</h2>
+                <p class="product-short-description" style="font-size: small;">Cool Cat Camo BX Slide Sandal...</p>
+
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$79.98</span><span class="actual-price" style="font-size: small;">$99.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 11th card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/428531_100_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >New Balance</h2>
+                 <p class="product-short-description" style="font-size: small;">Amazing  Sandal - Kids'</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$24.98</span><span class="actual-price" style="font-size: small;">$29.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 12th card -->
+        <div  class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/468251_163_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Nunn Bash</h2>
+                <p class="product-short-description" style="font-size: small;">Foamies Guzman Steps Glitter ...</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$44.98</span><span class="actual-price" style="font-size: small;">$54.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="cont">
+    <div class="best-main" >
+<div class="">
+    <h2>
+        The Best Brands At <br> Even Better Prices
+    </h2>
+</div>
+<div class="best-brand">
+    <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_mixNEW.jpg?impolicy=qlt-medium&imwidth=300&imdensity=1" alt="">
+ <h5>shop now</h5>
+</div>
+
+<div class="best-brand">
+    <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_crownNEW.jpg?impolicy=qlt-medium&imwidth=300&imdensity=1" alt="">
+    <h5>shop now</h5>
+</div>
+
+<div class="best-brand">
+    <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_kellyNEW.jpg?impolicy=qlt-medium&imwidth=300&imdensity=1" alt="">
+    <h5>shop now</h5>
+</div>
+
+<div class="best-brand">
+    <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_jessicasimpsonNEW.jpg?impolicy=qlt-medium&imwidth=300&imdensity=1" alt="">
+    <h5>shop now</h5>
+</div>
+
+<div class="best-brand">
+    <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_hushpuppiesNEW.jpg?impolicy=qlt-medium&imwidth=300&imdensity=1" alt="">
+    <h5>shop now</h5>
+</div>
+
+
+<div class="best-brand">
+    <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_stevemaddenNEW.jpg?impolicy=qlt-medium&imwidth=300&imdensity=1" alt="">
+    <h5>shop now</h5>
+</div>
+
+    </div>
+</div>
+<h2 style="text-align: center;font-size: xx-large; margin-top: 4%;">
+    Shop Women’s Can’t-Miss Deals
+</h2>
+<div class="wcm-main">
+   
+    <div >
+   
+    </div>
+<div class="wcm">
+<img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_under40?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+
+<h3>
+    Sandals Under $40  
+</h3>
+
+<a style="color: black; font-weight: bold;font-size: 14px;" href="#">
+    Shop Now
+</a>
+
+</div>
+
+<div class="wcm">
+    <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_under75?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+    
+    <h3>
+        Fashion  Sneakers Under $40  
+    </h3>
+    
+    <a style="color: black; font-weight: bold;font-size: 14px;" href="#">
+        Shop Now
+    </a>
+    
+    </div>
+
+    <div class="wcm">
+        <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_under75?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+        
+        <h3>
+             Boots Under $40 
+        </h3>
+        
+        <a style="color: black; font-weight: bold;font-size: 14px;" href="#">
+            Shop Now
+        </a>
+        
+        </div>
+<div class="wcm">
+<img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_clearance?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+
+<h3>
+    All Men's Clearance  
+</h3>
+
+<a style="color: black; font-weight: bold;font-size: 14px;" href="#">
+    Shop Now
+</a>
+
+</div>
+
+</div>
+
+<div style="margin-top: 4%;">
+    <h1 style="text-align: center;">Cue The Price Drop <a style="font-size:medium;color: black;" href="#">Shop Men’s</a></h1>
+    
+</div>
+
+
+<!-- slider 2 -->
+
+<section class="product"> 
+
+    <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+    <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+   
+    <div class="product-container">
+       <!-- first card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 180px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/400512_240_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small">Seven 91</h2>
+                <p class="product-short-description" style="font-size: small;">Fucci Sneaker</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">54.98</span><span class="actual-price" style="font-size: small;">$64.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+
+<!-- second card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 180px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/468202_001_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;">Keen</h2>
+                <p class="product-short-description" style="font-size: small;" >Steens Vent Trail Shoe - Men's</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$99.98</span><span class="actual-price" style="font-size: small;">144.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+
+        <!-- 3rd card  -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 180pxpx;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/477590_203_ss_01?impolicy=colpg&imwidth=500&imdensity=1" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;">Carhartt</h2>
+                <p class="product-short-description" style="font-size: small;"  style="font-size: small;"  >Carbon Nano Composite Toe W...</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$99.98</span><span class="actual-price" style="font-size: small;">$144.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+
+<!-- 4th card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 180px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/499992_001_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;">Rockport</h2>
+                <p class="product-short-description" style="font-size: small;">Garett Slip-On</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$54.98</span><span class="actual-price" style="font-size: small;">$89.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 5th card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 180px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/369891_212_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Crocs</h2>
+                <p class="product-short-description" style="font-size: small;">Classic Lined Clog - Men's</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$39.98</span><span class="actual-price" style="font-size: small;">$64.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- sixth card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 180px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/476322_507_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Skechers</h2>
+                <p class="product-short-description" style="font-size: small;">GO Golf Torque Walking Shoe - ...</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$49.98</span><span class="actual-price" style="font-size: small;">$89.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- seventh card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 180px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/342130_761_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Crocs</h2>
+                <p class="product-short-description" style="font-size: small;">Classic Clog</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$24.98</span><span class="actual-price" style="font-size: small;">$49.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 8th card  -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 180px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/423104_210_ss_01?impolicy=colpg&imwidth=500&imdensity=1" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Merrell</h2>
+                <p class="product-short-description" style="font-size: small;">Moab 2 Vent Hiking Shoe - Men's</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$59.98</span><span class="actual-price" style="font-size: small;">$69.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 9th card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 180px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/463498_221_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Nunn Bush</h2>
+                <p class="product-short-description" style="font-size: small;">Reggae Slim Stretch Slinky Sandal</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$44.98</span><span class="actual-price" style="font-size: small;">$79.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 10th card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 190px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/429111_020_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Cole Haan</h2>
+                <p class="product-short-description" style="font-size: small;">Original Grand StitchLite Wingtip ...</p>
+
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$79.98</span><span class="actual-price" style="font-size: small;">$99.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 11th card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 180px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/428531_100_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >New Balance</h2>
+                 <p class="product-short-description" style="font-size: small;">Amazing  Sandal - Kids'</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$24.98</span><span class="actual-price" style="font-size: small;">$29.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 12th card -->
+        <div  class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 180px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/468251_163_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Nunn Bash</h2>
+                <p class="product-short-description" style="font-size: small;">Foamies Guzman Steps Glitter ...</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$44.98</span><span class="actual-price" style="font-size: small;">$54.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<h2 style="text-align: center;font-size: xx-large;">
+    Shop Kids’ Can’t-Miss Deals
+</h2>
+<div class="wcm-main">
+   
+    <div >
+   
+    </div>
+<div class="wcm">
+<img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_under25?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+
+<h3>
+    Sandals Under $25  
+</h3>
+
+<a style="color: black; font-weight: bold;font-size: 14px;" href="#">
+    Shop Now
+</a>
+
+</div>
+
+<div class="wcm">
+    <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_under50?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+    
+    <h3>
+         Sneakers Under $50  
+    </h3>
+    
+    <a style="color: black; font-weight: bold;font-size: 14px;" href="#">
+        Shop Now
+    </a>
+    
+    </div>
+
+    <div class="wcm">
+        <img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_under75?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+        
+        <h3>
+             Boots Under $75 
+        </h3>
+        
+        <a style="color: black; font-weight: bold;font-size: 14px;" href="#">
+            Shop Now
+        </a>
+        
+        </div>
+<div class="wcm">
+<img src="https://images.dsw.com/is/image/DSWShoes/P221473_funnel_clearance?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+
+<h3>
+    All Kids' Clearance  
+</h3>
+
+<a style="color: black; font-weight: bold;font-size: 14px;" href="#">
+    Shop Now
+</a>
+
+</div>
+
+</div>
+
+
+<div>
+    <h1 style="text-align: center;margin-top: 4%;">These Prices Are Sooo Low (& Selling Fast)
+        <a style="font-size:medium;color: black;" href="#">Shop Kids`</a></h1>
+    
+</div>
+
+
+<!-- slider 3 -->
+
+<section class="product"> 
+
+    <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+    <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+   
+    <div class="product-container">
+       <!-- first card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/518736_465_ss_01?impolicy=colpg&imwidth=800&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small">Skechers</h2>
+                <p class="product-short-description" style="font-size: small;">Skech-Air Bolt Luzox Slip-On Sneak...</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$44.98</span><span class="actual-price" style="font-size: small;">$54.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+
+<!-- second card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/501119_500_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;">Nike</h2>
+                <p class="product-short-description" style="font-size: small;"  >Kawa Slide Sandal - Kids'</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$14.98</span><span class="actual-price" style="font-size: small;">$25.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+
+        <!-- 3rd card  -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 170px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/480762_408_ss_01?impolicy=colpg&imwidth=500&imdensity=1" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;">adidas</h2>
+                <p class="product-short-description" style="font-size: small;"  style="font-size: small;"  >Racer TR 2.0 Sneaker - Kids'</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$24.98</span><span class="actual-price" style="font-size: small;">$26.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+
+<!-- 4th card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/499992_001_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;">Vans</h2>
+                <p class="product-short-description" style="font-size: small;">Goya Sandal - Kids'</p>
+                <span class="price" style="color:#c31e45;font-weight: 100;font-size:18px">$44.98</span><span class="actual-price" style="font-size: small;">$54.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 5th card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/502515_284_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Blowfish Malibu</h2>
+                <p class="product-short-description" style="font-size: small;">Maddox Slip-On Sneaker - Kids'</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$19.98</span><span class="actual-price" style="font-size: small;">$29.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- sixth card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/512750_141_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Blowfish Malibu</h2>
+                <p class="product-short-description" style="font-size: small;">My Range Slide Sandal - Kids'</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$29.98</span><span class="actual-price" style="font-size: small;">$32.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- seventh card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/422483_464_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Teva</h2>
+                <p class="product-short-description" style="font-size: small;">Hurricane XLT Sandal - Kids'</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$34.98</span><span class="actual-price" style="font-size: small;">$44.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 8th card  -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/500204_060_ss_01?impolicy=colpg&imwidth=500&imdensity=1" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Puma</h2>
+                <p class="product-short-description" style="font-size: small;">Puma Sandal's - Kids'</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$39.98</span><span class="actual-price" style="font-size: small;">$44.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 9th card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/518736_465_ss_01?impolicy=colpg&imwidth=800&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Puma</h2>
+                <p class="product-short-description" style="font-size: small;">X Ray 2 Square Sneaker - Kids'</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$44.98</span><span class="actual-price" style="font-size: small;">$54.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 10th card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/504240_300_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Puma</h2>
+                <p class="product-short-description" style="font-size: small;">Cool Cat Camo BX Slide Sandal...</p>
+
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$14.98</span><span class="actual-price" style="font-size: small;">$24.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 11th card -->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/501918_650_ss_01?impolicy=colpg&imwidth=500&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >new Balance</h2>
+                 <p class="product-short-description" style="font-size: small;">Amazing  Sandal - Kids'</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$24.98</span><span class="actual-price" style="font-size: small;">$29.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+
+        <!-- 12th card -->
+        <div  class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="    color: #c31e45;background-color: #eeccd4;border-radius: 1rem;">Clearance</span>
+                <img style="width: 150px;height: 170px;margin: auto;text-align: center;margin-left: 50px;margin-top: 70px;" src="https://images.dsw.com/is/image/DSWShoes/518736_465_ss_01?impolicy=colpg&imwidth=800&imdensity=1" class="product-thumb" alt="">
+                <button class="card-btn">Quick Add</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand" style="font-size: small;" style="font-size: small;" >Nunn Bash</h2>
+                <p class="product-short-description" style="font-size: small;">Foamies Guzman Steps Glitter ...</p>
+                <span class="price" style="color: #c31e45;font-weight: 100;font-size:18px">$44.98</span><span class="actual-price" style="font-size: small;">$54.99</span>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+   </main> 
+
+
+   <h2 style="text-align: center;font-size: xx-large;">
+    Become A VIP. Get Free (& Easy) Perks.
+</h2>
+<div class="wcm-main">
+   
+    <div >
+   
+    </div>
+<div class="wcm">
+<img src="https://images.dsw.com/is/image/DSWShoes/vip-icon-money-1396-1014.svg?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+
+<h3>
+    20% Off After Your First VIP Purchase
+</h3>
+<p>
+    Make your first purchase as a VIP to get this exclusive offer. Exclusions apply.
+</p>
+
+<a style="color: black; font-weight: bold;font-size: 14px;" href="#">
+   join for Free
+</a>
+
+</div>
+
+<div class="wcm">
+    <img src="https://images.dsw.com/is/image/DSWShoes/vip-icon-delivery-1396-1014.svg?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+    
+    <h3>
+        Free Shipping 
+    </h3>
+    <p>
+        On anything. All the time. (+ Free in-store returns.)
+    </p>
+    <a style="color: black; font-weight: bold;font-size: 14px;" href="#">
+        More Details
+    </a>
+    
+    </div>
+
+    <div class="wcm">
+        <img src="https://images.dsw.com/is/image/DSWShoes/vip-icon-gift-1396-1014.svg?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+        
+        <h3>
+            $5 Off For Your Bday
+        </h3>
+        <p>
+            Make sure you've added the big day in your profile so we can celebrate!
+        </p>
+        <a style="color: black; font-weight: bold;font-size: 14px;" href="#">
+           More Details
+        </a>
+        
+        </div>
+<div class="wcm">
+<img src="https://images.dsw.com/is/image/DSWShoes/vip-icon-money-1396-1014.svg?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="">
+
+<h3>
+    Points With Every Purchase
+</h3>
+<p>
+    More points = more Rewards. And more Rewards = more shoes.
+</p>
+
+<a style="color: black; font-weight: bold;font-size: 14px;" href="#">
+    More Details
+</a>
+
+</div>
+
+</div>
+
+<h3 style="text-align: center;">DSW DESIGNER SHOE WAREHOUSE: THE LATEST IN DESIGNER SHOES,
+    <br> SANDALS, HANDBAGS AND MORE</h3>
+
+
+
+    <footer>
+        <div id="container">
+            <div >
+                <div>
+                    <h3>Customer service</h3>
+                    <p>1.866.379.7463</p>
+                    <p>CUSTOMERSERVICE@DSW.COM</p>
+                    <div id="logos">
+                        <div><a href="https://twitter.com/dsw_us"><ion-icon name="logo-twitter"></ion-icon></a></div>
+                        <div><a href="https://www.pinterest.com/dsw/"><ion-icon name="logo-pinterest"></ion-icon></a></div>
+                        <div><a href="https://www.facebook.com/DSW"><ion-icon name="logo-facebook"></ion-icon></a></div>
+                        <div><a href="https://www.instagram.com/dsw"><ion-icon name="logo-instagram"></ion-icon></a></div>
+                        <div><a href="https://itunes.apple.com/us/app/dsw-designer-shoe-warehouse/id918263528?mt=8"><ion-icon name="musical-notes"></ion-icon></a></div>
+                    </div>
+                    <div id="innerbox">
+                        <div id="innerbox-1">
+                        <div id="DSW">DSW VIP</div>
+                        <div><h3 class="free_shipping">Free Shipping, Rewards & More </h3></div>
+                    </div>
+                    <button id="button-1" onclick="btn3()"><b>SIGN UP FOR FREE</b></button>
+                    </div>
+                    
+                </div>
+                <div class="copyright"><p>© 2022 Designer Brands
+                    All rights reserved</p></div>
+            </div>
+            <div id="container-1">
+                <div id="categories">
+                    <div id="categories-0">
+                        <h3>CATEGORIES</h3>
+                        <p>SHOES</p>
+                        <p>KIDS SHOES</p>
+                        <p>HANDBAGS</p>
+                        <p>ACCESSORIES</p>
+                        <p>BOOTS</p>
+                    </div>
+                    <div id="categories-1">
+                        <p >SANDALS</p>
+                        <p >RUNNIG SHOES</p>
+                        <p >SNEAKERS</p>
+                        <p >BOAT SHOES</p>
+                        <p >SOCKS</p>
+                    </div>
+                    <div id="categories-2">
+                        <p>RAIN BOOTS</p>
+                        <p>DUCK BOOTS</p>
+                        <p>PLATFORM BOOTS</p>
+                    </div>
+                </div>
+                <div id="Explore">
+                    <div id="explore-0">
+                        <h3>EXPLORE DSW</h3>
+                        <p>DSW VIP</p>
+                        <p>Store finder</p>
+                        <p>Shoe repair</p>
+                        <p>Customer service</p>
+                        <p>Return & Exchange Policy</p>
+                        <p>Careers</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div id="explore-1">
+                        <p>Accessibility Statement</p>
+                        <p>Order Status</p>
+                        <p>Gift Cards</p>
+                        <p>Supply Chain Transparency</p>
+                        <p>Philanthropy</p>
+                        <p>The W Nail Bar</p>
+                    </div>
+                    <div id="explore-2">
+                        <p>Designer Brands</p>
+                        <p>Terms of Use</p>
+                        <p>Do Not Sell or Share My Personal Information</p>
+                        <p>Comp. Value Details</p>
+                        <p>Pricing & Exclusions</p>
+                        <p>Fashion & Resources</p>
+                        <p>Potential Suppliers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+<script src="deals.js"></script>
+
+</html>

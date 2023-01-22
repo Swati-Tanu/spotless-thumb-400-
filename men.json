@@ -1,0 +1,1350 @@
+[
+    {
+        "brand": "adidas",
+        "name": "Adidas Run '70s Running",
+        "price": 64.99,
+        "image": "https://images.dsw.com/is/image/DSWShoes/530440_400_ss_01?impolicy=colpg&imwidth=400&imdensity=2",  
+        "ProductType": "Sneaker",
+        "size": [
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5
+        ],
+        "color": "blue",
+        "rating": 677,
+        "description": "Hit the ground running in the Run '70s running shoe from adidas. This pair sports a retro-inspired design for a bit of vintage flair, while the cushioned footbed and EVA sole ensure a padded fit.",
+        "id": "1"
+        },
+        {
+            "brand": "Stacy Adams",
+            "name": "Saunders Loafer",
+            "price": 70.99,
+            "image": "https://images.dsw.com/is/image/DSWShoes/509122_201_ss_01?impolicy=colpg&imwidth=400&imdensity=2",  
+            "ProductType": "Loafer",
+            "size": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+            ],
+            "color": "brown",
+            "rating": 677,
+            "description": "The Woven penny Loafer from Mercanti Fiorentini will bring textural enticement to your look. These slip-ons feature a modern square toe and rubber driver sole for added distinction.",
+            "id": "2"
+            },
+      {      
+    "brand": "Timberland",
+    "name": "997H Sneaker- Men's",
+    "price": 89.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/522184_300_ss_01?impolicy=colpg&imwidth=400&imdensity=2",  
+    "ProductType": "Sneaker",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5
+    ],
+    "color": "beige",
+    "rating": 168,
+    "description": "Bring some sporty vibes to your ensemble with the New Balance 997H sneaker. Beautiful mixed material design with signature 'N' detail brings modern flair to this lace-up pair.",
+    "id": "3"
+    },
+    {
+        "brand": "Timberland",
+        "name": "Weather Or Not Chukka",
+        "price": 149.99,
+        "image": "https://images.dsw.com/is/image/DSWShoes/512472_235_ss_01?impolicy=qlt-medium-high&imwidth=640&imdensity=2",  
+        "ProductType": "Boot",
+        "size": [
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5
+        ],
+        "color": "beige",
+        "rating": 567,
+        "description": "Classic Timberland style is what you'll find in the Basic 6-Inch boot! This waterproof lace-up has a padded collar for added comfort and is built to feel sturdy on the job and during your down time.",
+        "id": "5"
+        },
+    
+    {
+        "brand": "adidas",
+        "name": "Adidas Kaptir 2.0 Running",
+        "price": 89.99,
+        "image": "https://images.dsw.com/is/image/DSWShoes/534181_408_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+        "ProductType": "Sneaker",
+        "size": [
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        13
+        ],
+        "color": "black",
+        "rating": 264,
+        "description": "Take to the track or the sidewalk in the Kaptir 2.0 running shoe from adidas. This pair sports an EVA midsole and lightweight design made to keep you running, while the sleek look highlights casual ensembles with ease.",
+        "id": "11"
+    },
+    {
+        "brand": "Stacy Adams",
+        "name": "Earl Loafer",
+        "price": 124.99,
+        "image": "https://images.dsw.com/is/image/DSWShoes/551642_432_ss_01?impolicy=qlt-medium-high&imwidth=640&imdensity=2",  
+        "ProductType": "Loafer",
+        "size": [
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5
+        ],
+        "color": "blue",
+        "rating": 168,
+        "description": "Show off your luxurious attitude with the Saunders Loafer by Stacy Adams. Plush debossed velour upper brings sophistication to this square toe Loafer-inspired slip-on enhanced with a fully cushioned insole with memory foam for cozy comfort.",
+        "id": "12"
+        },
+    {
+        "brand": "adidas",
+        "name": "Adidas Hoops 3.0 Mid High-Top Sneaker",
+        "price": 64.99,
+        "image": "https://images.dsw.com/is/image/DSWShoes/534180_001_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+        "ProductType": "Sneaker",
+        "size": [
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        13
+        ],
+        "color": "black",
+        "rating": 1024,
+        "description": "Take your look from the court to the street with the Hoops 3.0 Mid Sneaker from adidas. These basketball-inspired shoes feature a padded collar and high-top design for extra support.",
+        "id": "13"
+    },
+    {
+        "brand": "Stacy Adams",
+        "name": "Woven Penny Loafer",
+        "price": 99.99,
+        "image": "https://images.dsw.com/is/image/DSWShoes/317244_019_ss_01?impolicy=colpg&imwidth=400&imdensity=2",  
+        "ProductType": "Loafer",
+        "size": [
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5
+        ],
+        "color": "brown",
+        "rating": 1277,
+        "description": "Comfort and style collide in this classic penny Loafer from Rockport! Featuring sport technology for superior comfort and a stylish yet traditional design, this slip-on shoe will keep you looking and feeling good all day long.",
+        "id": "14"
+    },
+    {
+        "brand": "Timberland",
+        "name": "Basic 6-Inch Boot - Men's",
+        "price": 179.99,
+        "image": "https://images.dsw.com/is/image/DSWShoes/308527_231_ss_01?impolicy=colpg&imwidth=400&imdensity=2",  
+        "ProductType": "Boot",
+        "size": [
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5
+        ],
+        "color": "beige",
+        "rating": 1467,
+        "description": "Classic Timberland style is what you'll find in the Basic 6-Inch boot! This waterproof lace-up has a padded collar for added comfort and is built to feel sturdy on the job and during your down time.",
+        "id": "15"
+        },
+        {
+            "brand": "Timberland",
+            "name": "Earl Loafer",
+            "price": 124.99,
+            "image": "https://images.dsw.com/is/image/DSWShoes/544740_001_ss_01?impolicy=colpg&imwidth=400&imdensity=2",  
+            "ProductType": "Loafer",
+            "size": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+            ],
+            "color": "black",
+            "rating": 867,
+            "description": "Classic Timberland style is what you'll find in the Basic 6-Inch boot! This waterproof lace-up has a padded collar for added comfort and is built to feel sturdy on the job and during your down time.",
+            "id": "16"
+            },
+            {
+                "brand": "Timberland",
+                "name": "Ritchie Penny Loafer",
+                "price": 89.99,
+                "image": "https://images.dsw.com/is/image/DSWShoes/534238_100_ss_01?impolicy=colpg&imwidth=400&imdensity=2",  
+                "ProductType": "Loafer",
+                "size": [
+                8,
+                8.5,
+                9,
+                9.5,
+                10,
+                10.5
+                ],
+                "color": "white",
+                "rating": 867,
+                "description": "Classic and comfortable, the Carlos by Carlos Santana Ritchie penny Loafer easily complements your formal and casual ensembles. This slip-on has leather upper, leather footbed and studded rubber sole for a perfect fit and traction.",
+                "id": "29"
+                },
+               
+    {
+        "brand": "Stacy Adams",
+        "name": "Monaco II Loafer",
+        "price": 64.99,
+        "image": "https://images.dsw.com/is/image/DSWShoes/510367_001_ss_01?impolicy=colpg&imwidth=400&imdensity=2",  
+        "ProductType": "Loafer",
+        "size": [
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5
+        ],
+        "color": "blue",
+        "rating": 168,
+        "description": "Show off your luxurious attitude with the Saunders Loafer by Stacy Adams. Plush debossed velour upper brings sophistication to this square toe Loafer-inspired slip-on enhanced with a fully cushioned insole with memory foam for cozy comfort.",
+        "id": "30"
+        },
+    {
+        "brand": "adidas",
+        "name": "Adidas Run '70s Running Shoe - Men's",
+        "price": 64.99,
+        "image": "https://images.dsw.com/is/image/DSWShoes/530825_001_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+        "ProductType": "Sneaker",
+        "size": [
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        13
+        ],
+        "color": "blue",
+        "rating": 1024,
+        "description": "Hit the ground running in the Run '70s running shoe from adidas. This pair sports a retro-inspired design for a bit of vintage flair, while the cushioned footbed and EVA sole ensure a padded fit.",
+        "id": "31"
+    },
+    {
+        "brand": "adidas",
+        "name": "Adidas Hoops 3.0 Mid High-Top Sneaker",
+        "price": 64.99,
+        "image": "https://images.dsw.com/is/image/DSWShoes/497944_002_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+        "ProductType": "Boot",
+        "size": [
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        13
+        ],
+        "color": "black",
+        "rating": 1024,
+        "description": "Take your look from the court to the street with the Hoops 3.0 Mid Sneaker from adidas. These basketball-inspired shoes feature a padded collar and high-top design for extra support.",
+        "id": "32"
+    },
+   
+    {
+        "brand": "Stacy Adams",
+        "name": "Drexel Penny Loafer",
+        "price": 99.99,
+        "image": "https://images.dsw.com/is/image/DSWShoes/414151_221_ss_01?impolicy=colpg&imwidth=800&imdensity=2",  
+        "ProductType": "Loafer",
+        "size": [
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5
+        ],
+        "color": "brown",
+        "rating": 168,
+        "description": "Look your best in the Drexel penny Loafer from Nunn Bush. With a Comfort Gel footbed and soft moisture-wicking lining, these slip-ons promise to keep you feeling great all-day long.",
+        "id": "33"
+        },
+       
+ 
+
+    {
+    "brand": " dHeyude",
+    "description": "Hit the ground running in the Run '70s running shoe from Hey Dude. This pair sports a retro-inspired design for a bit of vintage flair, while the cushioned footbed and EVA sole ensure a padded fit.",
+    "price": 64.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/534113_021_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 577,
+    "name": "Hey Dude Wally Stitch Slip-On - Men's",
+    "id": "2",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5
+    ],
+    "color": "grey"
+    
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Converse",
+    "description": "The Chuck Taylor All Star High Street Hi sneaker from Converse adds that sporty appeal to any casual look. The vulcanized sole and camo-printed lining bring extra style to this lace-up.",
+    "price": 64.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/531396_306_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 377,
+    "name": "Converse Chuck Taylor All Star High Street Hi High-Top Sneaker - Men's",
+    "id": "3",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5
+    ],
+    "color": "beige",
+    "ProductType": "Shoes"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Koolaburra By UGG",
+    "description": "Koolaburra by UGG brings you the Graisen slipper that's enhanced with thick faux fur and a cushioned footbed for unbeatable comfort. The scuff-inspired design ensures this shoe stays in place as you walk!",
+    "price": 69.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/502316_431_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 664,
+    "name": "Koolaburra By UGG Graisen Slipper",
+    "id": "4",
+    "size": [
+    8,
+    12
+    ],
+    "color": "blue",
+    "ProductType": "Slipper"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Crocs",
+    "description": "It’s the iconic Clog that started a comfort revolution around the world! The go-to comfort shoe, the Crocs Classic Clog offers lightweight Iconic Crocs Comfort™, a color for every personality, and an ongoing invitation to be comfortable in your own shoes. This quick-drying pair is water friendly, buoyant, and designed with ventilation holes for added breathability. A pivoting heel strap secures the fit.",
+    "price": 49.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/342130_100_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 864,
+    "name": "Crocs Classic Clog",
+    "id": "5",
+    "size": [
+    6,
+    7,
+    8,
+    12,
+    13
+    ],
+    "color": "white",
+    "ProductType": "Clog"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "New Balance",
+    "description": "Everyday walks will be a bliss in the New Balance 515 sneaker. The suede and mesh sneaker comes with a NB Comfort Insert to offer you additional cushioning. With a lightweight EVA foam midsole, you get to experience increased comfort in the heel and midsole.",
+    "price": 59.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/530535_001_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 264,
+    "name": "New Balance 515 Sneaker - Men's",
+    "id": "6",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    12,
+    13
+    ],
+    "color": "black",
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Crown Vintage",
+    "description": "The rhythmic sound of new copies is paired with the high-speed clicking of your coworker’s keyboard; a reminder that the workday is nearing its end. You’re glad you decided to wear your Edsul oxford-inspired Sneaker from Crown Vintage so when you leave the office, you’ll be ready for happy hour. The sweet relief of the weekend is just a few hours away. ",
+    "price": 59.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/523902_240_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 364,
+    "name": "Crown Vintage Edsul Sneaker",
+    "id": "7",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    11.5,
+    12,
+    13
+    ],
+    "color": 
+    "black",
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Mix No. 6",
+    "description": "Touch up a formal look with the laidback, cool vibes of the Haigen Loafer. This velvet piece sports a sleek silhouette that's sure to amp up favorite ensembles easily.",
+    "price": 49.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/521325_002_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 364,
+    "name": "Mix No. 6 Haigen Loafer",
+    "id": "8",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    11.5,
+    12,
+    13
+    ],
+    "color": 
+    "black"
+    ,
+    "ProductType": "Loafer"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Puma",
+    "description": "On the streets or at the gym, you feel superior comfort in the Pacer Future Street Plus sneaker from Puma. This lace-up sneaker features knit-like mesh upper with synthetic leather eyestay and midsole painting for a fresh look. The SoftFoam+ sockliner cushions your foot while the rubber outsole gives the stability to push farther.",
+    "price": 69.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/540002_001_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 1264,
+    "name": "Puma Pacer Future Street Plus Sneaker - Men's",
+    "id": "9",
+    "size": [
+    7,
+    7.5,
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    11.5,
+    12,
+    13,
+    14
+    ],
+    "color": 
+    "black"
+    ,
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Timberland",
+    "description": "Be inspired by the Timberland Davis Square boot for its style and eco-friendliness. The Better Leather and ReBOTL fabric containing at least 50% recycled plastic contribute to a sustainable planet. Padded collar and Ortholite footbed ensure reliable comfort and support.",
+    "price": 99.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/533389_231_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 264,
+    "name": "Timberland Davis Square Boot",
+    "id": "10",
+    "size": [
+    7,
+    7.5,
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    11.5,
+    12,
+    13
+    ],
+    "color": 
+    "brown"
+    ,
+    "ProductType": "Boot"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Crown Vintage",
+    "description": "For days that are reserved for lounging on the couch, you need a shoe that offers maximum comfort. The Big Horn moccasin from Crown Vintage are super cozy yet offer support for those super important trips… to the fridge.",
+    "price": 29.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/513751_021_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 24,
+    "name": "Crown Vintage Big Horn Slipper - Men's",
+    "id": "13",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "grey"
+    ,
+    "ProductType": "Slipper"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Crown Vintage",
+    "description": "Once the days begin to shorten and cool breezes become more common, upgrade your footwear to something more durable. The Signy Boot from Crown Vintage are made with sturdy materials that are ideal for the unpredictable weather that comes with the cooler seasons. ",
+    "price": 69.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/534425_201_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 24,
+    "name": "Crown Vintage Signy Boot",
+    "id": "14",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    11,
+    12,
+    13
+    ],
+    "color": [
+    "brown"
+    ],
+    "ProductType": "Boot"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "New Balance",
+    "description": "The New Balance 237 sneaker can amplify your modern looks. This lace-up sneaker has a streamlined suede upper and herringbone sole takes you back to the time when running shoes were introduced. On the other hand, the oversized N logo, extended midsole length, and gator inspired foxing and mudguard make contemporary style come alive in this sneaker.",
+    "price": 69.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/533207_102_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 524,
+    "name": "New Balance 237 Sneaker - Men's",
+    "id": "15",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    12,
+    13
+    ],
+    "color": "beige",
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Puma",
+    "description": "The Puma Ever FS sneaker is a clean, minimalist design that makes a great addition to your footwear rotation. The tumbled leather upper with formstrips is complemented with an elevated cupsole, while the padded collar and SoftFoam+ sockliner provide cushioning support.",
+    "price": 59.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/530447_100_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 2524,
+    "name": "Puma Ever FS Sneaker - Men's",
+    "id": "16",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "white",
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Vince Camuto",
+    "description": "A true classic that will never go out of style. This cap toe leather oxford is a Vince Camuto design that's ready for the boardroom or a special night out. Simple stitching out paneled upper, light burnishing defines the toe, and a hint of print lines the interior.",
+    "price": 88.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/505129_240_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 524,
+    "name": "Vince Camuto Lamson Cap Toe Oxford",
+    "id": "17",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "black"
+    ,
+    "ProductType": "Oxfords"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Rockport",
+    "description": "Stay stylish and protected at the same time in the Rockport Weather Or Not chukka boot. The Hydro-Shield waterproof technology ensures a stay-dry experience while the padded collar and tongue of this rain boot lets you enjoy plush comfort.",
+    "price": 88.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/512472_231_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 824,
+    "name": "Rockport Weather Or Not Chukka Boot",
+    "id": "18",
+    "size": [
+    7,
+    7.5,
+    8,
+    10,
+    12
+    ],
+    "color": 
+    "brown"
+    ,
+    "ProductType": "Boot"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Cole Haan",
+    "description": "A true classic, the Hawthorne oxford from Cole Haan makes you ready to take on anything the day brings. Made of leather, this lace-up comes with Grand.OS comfort technology",
+    "price": 128.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/522647_230_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 924,
+    "name": "Cole Haan Hawthorne Oxford",
+    "id": "19",
+    "size": [
+    8,
+    8.8,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "brown"
+    ,
+    "ProductType": "Oxfords"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Birkenstock",
+    "description": "Birkenstock has set the standard for comfortable footwear! Slip on your pair of Arizona slides and feel supported throughout the day, thanks to a contoured footbed that's anatomically formed for supreme comfort.",
+    "price": 108.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/501344_200_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 224,
+    "name": "Birkenstock Arizona Slide Sandal - Men's",
+    "id": "20",
+    "size": [
+    8,
+    8.8,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "black"
+    ,
+    "ProductType": "Sandals"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Timberland",
+    "description": "Classic Timberland style is what you'll find in the Basic 6-Inch boot! This waterproof lace-up has a padded collar for added comfort and is built to feel sturdy on the job and during your down time.",
+    "price": 98.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/308527_231_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 524,
+    "name": "Timberland Basic 6-Inch Boot - Men's",
+    "id": "21",
+    "size": [
+    8,
+    8.8,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "brown"
+    ,
+    "ProductType": "Boot"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Brooks",
+    "description": "Whether you are an enthused amateur or a veteran, the Ghost 14 running shoe from Brooks is perfect for everyday, street running. The 3D Fit Print at the upper provides the stretch and structure, while the DNA LOFT cushioning midsole and Segmented Crash Pad ensure supportive landing and take-off.",
+    "price": 198.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/514591_056_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 324,
+    "name": "Brooks Ghost 14 Running Shoe - Men's",
+    "id": "22",
+    "size": [
+    8,
+    8.8,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    
+    "grey"
+    ,
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Cole Haan",
+    "description": "Add an upgraded touch to your tailored look with the 2.ZeroGrand wingtip oxford from Cole Haan. With its lightweight GRAND.ØS cushioned footbed and foam midsole, this knit pair provides daylong comfort.",
+    "price": 198.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/494856_020_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 324,
+    "name": "Cole Haan 2.ZeroGrand StitchLite Wingtip Oxford",
+    "id": "23",
+    "size": [
+    8,
+    8.8,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+   
+    "blue"
+    ,
+    "ProductType": "Oxfords"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Brooks",
+    "description": "Whether you are an enthused amateur or a veteran, the Ghost 14 running shoe from Brooks is perfect for everyday, street running. The 3D Fit Print at the upper provides the stretch and structure, while the DNA LOFT cushioning midsole and Segmented Crash Pad ensure supportive landing and take-off.",
+    "price": 199.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/514696_029_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 324,
+    "name": "Brooks Ghost 14 Running Shoe - Men's",
+    "id": "24",
+    "size": [
+    8,
+    8.8,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "grey"
+    ,
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Cole Haan",
+    "description": "Look impressive from heel to toe in the Cole Haan Go-To Wing Oxford. The gorgeous wingtip and brogue detailing on the leather upper and welt accents lend a timeless vibe, while the lightweight construction and outsole with rubber forefront and heel provide excellent comfort and traction.",
+    "price": 119.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/518909_200_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 824,
+    "name": "Cole Haan Go-To Wingtip Oxford",
+    "id": "25",
+    "size": [
+    8,
+    8.8,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "brown"
+    ,
+    "ProductType": "Oxfords"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Vince Camuto",
+    "description": "Enhance your handsome ensemble with the Esmail  penny Loafer from Vince Camuto. These leather slip-ons feature a classic driver sole that stands out when worn with slacks or dark wash jeans.",
+    "price": 89.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/512029_230_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 524,
+    "name": "Vince Camuto Esmail Penny Loafer",
+    "id": "26",
+    "size": [
+    8,
+    10
+    ],
+    "color": 
+    "brown",
+    "ProductType": "Loafer"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Timberland",
+    "description": "Keep your kicks looking fresh all the time with the Graydon high-top sneaker from Timberland. This ankle boot inspired sneak features a Defender Repellent Systems® treatment to repel water and oil-based stains so your shoes will look newer for longer!",
+    "price": 89.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/431048_231_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 924,
+    "name": "Timberland Graydon High-Top Sneaker - Men's",
+    "id": "27",
+    "size": [
+    8,
+    9,
+    10,
+    10.5,
+    11,
+    11.5,
+    12,
+    13
+    ],
+    "color": 
+    "brown"
+    ,
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Vince Camuto",
+    "description": "Redefine your shoe collection with the Axyl Loafer from Vince Camuto. This slip-on features smooth leather and antiqued metal bit detailing to pair with your best-dressed looks.",
+    "price": 79.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/507522_001_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 924,
+    "name": "Vince Camuto Axyl Loafer",
+    "id": "28",
+    "size": [
+    9.5,
+    13
+    ],
+    "color": 
+    "black"
+    ,
+    "ProductType": "Loafer"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Dr. Martens",
+    "description": "Nothing beats the cool styling and well-loved quality of a pair of Dr. Martens. With a durable leather upper and the brand's signature rubber gum lug sole, the Combs boot is a lasting style icon that mixes combat accents with contrast yellow stitching and a matching heel pull.",
+    "price": 89.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/483499_001_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 1224,
+    "name": "Dr. Martens Combs Boot - Men's",
+    "id": "29",
+    "size": [
+    8,
+    8.5,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "black"
+    ,
+    "ProductType": "Boot"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Crocs",
+    "description": "Everybody loves the comfort of the Crocs Classic Clog — and now there’s a toasty lined version to keep the feeling going all season! The soft, fuzzy liner adds to the cushion and comfort, indoors or out. Great as a slipper, yet capable to run errands, too! Croslite™ foam construction keeps them light and easy to wear. The pivoting heel strap gives you a secure fit, or push it forward to just step in and go.",
+    "price": 49.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/369891_001_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 1224,
+    "name": "Crocs Classic Lined Clog - Men's",
+    "id": "30",
+    "size": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "white"
+    ,
+    "ProductType": "Clog"
+    },
+    
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Converse",
+    "description": "The Chuck Taylor All Star High Street Hi sneaker from Converse adds that sporty appeal to any casual look. The vulcanized sole and camo-printed lining bring extra style to this lace-up.",
+    "price": 64.9,
+    "image": "https://images.dsw.com/is/image/DSWShoes/531396_306_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 377,
+    "name": "Converse Chuck Taylor All Star High Street Hi High-Top Sneaker - Men's",
+    "id": "33",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5
+    ],
+    "color": "beige",
+    "ProductType": "Shoes"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Koolaburra By UGG",
+    "description": "Koolaburra by UGG brings you the Graisen slipper that's enhanced with thick faux fur and a cushioned footbed for unbeatable comfort. The scuff-inspired design ensures this shoe stays in place as you walk!",
+    "price": 69.9,
+    "image": "https://images.dsw.com/is/image/DSWShoes/502316_431_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 664,
+    "name": "Koolaburra By UGG Graisen Slipper",
+    "id": "34",
+    "size": [
+    8,
+    12
+    ],
+    "color":"blue",
+    "ProductType": "Slipper"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Crocs",
+    "description": "It’s the iconic clog that started a comfort revolution around the world! The go-to comfort shoe, the Crocs Classic Clog offers lightweight Iconic Crocs Comfort™, a color for every personality, and an ongoing invitation to be comfortable in your own shoes. This quick-drying pair is water friendly, buoyant, and designed with ventilation holes for added breathability. A pivoting heel strap secures the fit.",
+    "price": 49.9,
+    "image": "https://images.dsw.com/is/image/DSWShoes/342130_100_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 864,
+    "name": "Crocs Classic Clog",
+    "id": "35",
+    "size": [
+    6,
+    7,
+    8,
+    12,
+    13
+    ],
+    "color": 
+    "white",
+    
+    "ProductType": "Clog"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "New Balance",
+    "description": "Everyday walks will be a bliss in the New Balance 515 sneaker. The suede and mesh sneaker comes with a NB Comfort Insert to offer you additional cushioning. With a lightweight EVA foam midsole, you get to experience increased comfort in the heel and midsole.",
+    "price": 59.9,
+    "image": "https://images.dsw.com/is/image/DSWShoes/530535_001_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 264,
+    "name": "New Balance 515 Sneaker - Men's",
+    "id": "36",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "black"
+    ,
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Crown Vintage",
+    "description": "The rhythmic sound of new copies is paired with the high-speed clicking of your coworker’s keyboard; a reminder that the workday is nearing its end. You’re glad you decided to wear your Edsul oxford-inspired Sneaker from Crown Vintage so when you leave the office, you’ll be ready for happy hour. The sweet relief of the weekend is just a few hours away. ",
+    "price": 59.9,
+    "image": "https://images.dsw.com/is/image/DSWShoes/523902_240_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 364,
+    "name": "Crown Vintage Edsul Sneaker",
+    "id": "37",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    11.5,
+    12,
+    13
+    ],
+    "color": "black",
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Mix No. 6",
+    "description": "Touch up a formal look with the laidback, cool vibes of the Haigen Loafer. This velvet piece sports a sleek silhouette that's sure to amp up favorite ensembles easily.",
+    "price": 49.9,
+    "image": "https://images.dsw.com/is/image/DSWShoes/521325_002_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 364,
+    "name": "Mix No. 6 Haigen Loafer",
+    "id": "38",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    11.5,
+    12,
+    13
+    ],
+    "color": "black",
+    "ProductType": "Loafer"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Puma",
+    "description": "On the streets or at the gym, you feel superior comfort in the Pacer Future Street Plus sneaker from Puma. This lace-up sneaker features knit-like mesh upper with synthetic leather eyestay and midsole painting for a fresh look. The SoftFoam+ sockliner cushions your foot while the rubber outsole gives the stability to push farther.",
+    "price": 69.9,
+    "image": "https://images.dsw.com/is/image/DSWShoes/540002_001_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 1264,
+    "name": "Puma Pacer Future Street Plus Sneaker - Men's",
+    "id": "39",
+    "size": [
+    7,
+    7.5,
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    11.5,
+    12,
+    13,
+    14
+    ],
+    "color": "black",
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Timberland",
+    "description": "Be inspired by the Timberland Davis Square boot for its style and eco-friendliness. The Better Leather and ReBOTL fabric containing at least 50% recycled plastic contribute to a sustainable planet. Padded collar and Ortholite footbed ensure reliable comfort and support.",
+    "price": 99.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/533389_231_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 264,
+    "name": "Timberland Davis Square Boot",
+    "id": "40",
+    "size": [
+    7,
+    7.5,
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    11.5,
+    12,
+    13
+    ],
+    "color": "brown",
+    "ProductType": "Boot"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "adidas",
+    "description": "Take to the track or the sidewalk in the Kaptir 2.0 running shoe from adidas. This pair sports an EVA midsole and lightweight design made to keep you running, while the sleek look highlights casual ensembles with ease.",
+    "price": 89.9,
+    "image": "https://images.dsw.com/is/image/DSWShoes/534181_408_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 264,
+    "name": "Adidas Kaptir 2.0 Running Shoe - Men's",
+    "id": "41",
+    "size": [
+    7,
+    7.5,
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    11.5,
+    12,
+    13
+    ],
+    "color": "blue",
+    "ProductType": "Athletic"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "adidas",
+    "description": "Take your look from the court to the street with the Hoops 3.0 Mid Sneaker from adidas. These basketball-inspired shoes feature a padded collar and high-top design for extra support.",
+    "price": 64.9,
+    "image": "https://images.dsw.com/is/image/DSWShoes/530825_001_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 1024,
+    "name": "Adidas Hoops 3.0 Mid High-Top Sneaker - Men's",
+    "id": "42",
+    "size": [
+    7,
+    7.5,
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    11.5,
+    12,
+    13
+    ],
+    "color": "black",
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Crown Vintage",
+    "description": "For days that are reserved for lounging on the couch, you need a shoe that offers maximum comfort. The Big Horn moccasin from Crown Vintage are super cozy yet offer support for those super important trips… to the fridge.",
+    "price": 29.9,
+    "image": "https://images.dsw.com/is/image/DSWShoes/513751_021_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 24,
+    "name": "Crown Vintage Big Horn Slipper - Men's",
+    "id": "43",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    11,
+    12,
+    13
+    ],
+    "color": "grey",
+    "ProductType": "Slipper"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Crown Vintage",
+    "description": "Once the days begin to shorten and cool breezes become more common, upgrade your footwear to something more durable. The Signy Boot from Crown Vintage are made with sturdy materials that are ideal for the unpredictable weather that comes with the cooler seasons. ",
+    "price": 69.9,
+    "image": "https://images.dsw.com/is/image/DSWShoes/534425_201_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "Rating": 24,
+    "name": "Crown Vintage Signy Boot",
+    "id": "44",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    11,
+    12,
+    13
+    ],
+    "color": "brown",
+    "ProductType": "Boot"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "New Balance",
+    "description": "The New Balance 237 sneaker can amplify your modern looks. This lace-up sneaker has a streamlined suede upper and herringbone sole takes you back to the time when running shoes were introduced. On the other hand, the oversized N logo, extended midsole length, and gator inspired foxing and mudguard make contemporary style come alive in this sneaker.",
+    "price": 69.9,
+    "image": "https://images.dsw.com/is/image/DSWShoes/533207_102_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 524,
+    "name": "New Balance 237 Sneaker - Men's",
+    "id": "45",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    12,
+    13
+    ],
+    "color": "beige",
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Puma",
+    "description": "The Puma Ever FS sneaker is a clean, minimalist design that makes a great addition to your footwear rotation. The tumbled leather upper with formstrips is complemented with an elevated cupsole, while the padded collar and SoftFoam+ sockliner provide cushioning support.",
+    "price": 59.9,
+    "image": "https://images.dsw.com/is/image/DSWShoes/530447_100_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 2524,
+    "name": "Puma Ever FS Sneaker - Men's",
+    "id": "46",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    12,
+    13
+    ],
+    "color": "white",
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Vince Camuto",
+    "description": "A true classic that will never go out of style. This cap toe leather oxford is a Vince Camuto design that's ready for the boardroom or a special night out. Simple stitching out paneled upper, light burnishing defines the toe, and a hint of print lines the interior.",
+    "price": 88.9,
+    "image": "https://images.dsw.com/is/image/DSWShoes/505129_240_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 524,
+    "name": "Vince Camuto Lamson Cap Toe Oxford",
+    "id": "47",
+    "size": [
+    8,
+    8.5,
+    9,
+    9.5,
+    10,
+    10.5,
+    11,
+    12,
+    13
+    ],
+    "color":"black",
+    "ProductType": "Oxfords"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Rockport",
+    "description": "Stay stylish and protected at the same time in the Rockport Weather Or Not chukka boot. The Hydro-Shield waterproof technology ensures a stay-dry experience while the padded collar and tongue of this rain boot lets you enjoy plush comfort.",
+    "price": 88.9,
+    "image": "https://images.dsw.com/is/image/DSWShoes/512472_231_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 824,
+    "name": "Rockport Weather Or Not Chukka Boot",
+    "id": "48",
+    "size": [
+    7,
+    7.5,
+    8,
+    10,
+    12
+    ],
+    "color": "brown",
+    "ProductType": "Boot"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Cole Haan",
+    "description": "A true classic, the Hawthorne oxford from Cole Haan makes you ready to take on anything the day brings. Made of leather, this lace-up comes with Grand.OS comfort technology",
+    "price": 128.9,
+    "image": "https://images.dsw.com/is/image/DSWShoes/522647_230_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 924,
+    "name": "Cole Haan Hawthorne Oxford",
+    "id": "49",
+    "size": [
+    8,
+    8.8,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": "brown",
+    "ProductType": "Oxfords"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Birkenstock",
+    "description": "Birkenstock has set the standard for comfortable footwear! Slip on your pair of Arizona slides and feel supported throughout the day, thanks to a contoured footbed that's anatomically formed for supreme comfort.",
+    "price": 108.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/501344_200_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 224,
+    "name": "Birkenstock Arizona Slide Sandal - Men's",
+    "id": "50",
+    "size": [
+    8,
+    8.8,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": "black",
+    "ProductType": "Sandals"
+    }
+    ]

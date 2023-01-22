@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo-black.png" type="image/x-icon">
+    <title>SignIn</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        #img {
+            width: 100%;
+            height: 900px;
+        }
+        #img>div{
+            width: 730px;
+            height: 550px;
+            position: absolute;
+            top: 100px;
+            left: 730px;
+            /* border: 1px solid red; */
+            /* background-color: black; */
+        }
+        #img>div .box-1{
+            width: 100%;
+            height: 250px;
+            padding-top: 5px;
+            /* border: 1px solid red; */
+            background-color: black;
+        }
+        #img>div .box-1>div{
+            width: 90%;
+            margin: auto;
+            /* padding: 10px; */
+
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            /* font-size: 15px; */
+            /* background-color: black; */
+        }
+        #img>div .box-1>div>button{
+            width: 200px;
+            height: 40px;
+            border-radius: 0.3rem;
+            border: none;
+            background-color: white;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        #img>div .box-1>div>button>b{
+            text-decoration: none;
+            color: black;
+        }
+        #img>div #box-2{
+            width: 100%;
+            height: 300px;
+            padding: 5px 0px 5px 0px;
+            /* padding-bottom: 5px; */
+            background-color: white;
+        }
+        #box-2>h1{
+            margin-left: 60px;
+            /* padding-to: 20px; */
+        }
+        #form-1{
+            width: 600px;
+            margin: auto;
+
+        }
+        
+        #form-1>input{
+            width: 400px;
+            height: 30px;
+            margin-top: 20px;
+        }
+        #form-1 a{
+            color: black;
+            margin-left: 10px;
+            /* margin-top: 15px; */
+        }
+        #form-1 #btn2{
+            margin-top: 15px;
+            width: 180px;
+            height: 40px;
+            border: none;
+            border-radius: 0.2rem;
+            background-color: black;
+            cursor: pointer;
+            color: white;
+
+        }
+        #form-1 #btn2>b>a{
+            color: white;
+            text-decoration: none;
+        }
+        #sign_in_background{
+            width: 100%;
+            height: 900px;
+        }
+        div{
+            width: 250px;
+            /* border: 1px solid red; */
+        }
+        div>div> #logos{
+            display: flex;
+            width: 220px;
+            justify-content: space-evenly;
+        }
+
+        #logos a{
+            cursor: pointer;
+            color: black;
+            font-size: 30px;
+        }
+        div>div> #innerbox{
+            width: 220px;
+            height: 130px;
+            /* border: 1px solid red; */
+            background-color: black;
+            border-radius: 0.2rem;
+        }
+        #DSW{
+            width: 50px;
+            height: 40px;
+            border: 1px solid rgb(245, 199, 63);
+            margin-left: 15px;
+            margin-top: 15px;
+            color: white;
+        }
+        #innerbox-1{
+            display: flex;
+            /* margin-left: 10px; */
+        }
+        #button-1{
+            width: 200px;
+            height: 40px;
+            margin-left: 10px;
+            background-color: rgb(245, 199, 63);
+            border: none;
+            border-radius: 0.3rem;
+            cursor: pointer;
+        }
+        #button-1>b{
+            text-decoration: none;
+            color: black;
+        }
+        #container-1{
+            display: flex;
+            margin-left: 50px;
+
+        }
+        #categories{
+            display: flex;
+            /* justify-content: space-evenly; */
+
+        }
+        #categories-0 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+        #categories-0>p{
+            cursor: pointer;
+        }
+        #categories-1{
+            margin-top: 40px;
+            width: 150px;
+            margin-left: 40px;
+            /* border: 1px solid red; */
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            
+        }
+        #categories-1>p{
+            cursor: pointer;
+        }
+        #categories-2{
+            margin-top: 40px;
+            margin-left: 40px;
+            /* border: 1px solid red; */
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            
+        }
+        #categories-2>p{
+            cursor: pointer;
+        }
+        #Explore{
+            display: flex;
+            margin-left: 150px;
+        }
+        #explore-0>p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            width: 150px;
+            /* border: 1px solid red; */
+            cursor: pointer;
+            
+        }
+        #explore-1{
+            margin-top: 40px;
+            width: 200px;
+            margin-left: 80px;
+            /* border: 1px solid red; */
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+
+        }
+        #explore-1 p{
+            /* border: 1px solid red; */
+            width: 100px;
+            cursor: pointer;
+
+        }
+        #explore-2{
+            margin-top: 40px;
+            width: 250px;
+            margin-left: 80px;
+            /* border: 1px solid red; */
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+        #explore-2 p{
+            width: 180px;
+            /* border: 1px solid red; */
+            cursor: pointer;
+        }
+        .free_shipping{
+            color: white;
+            margin-left: 5px;
+        }
+        .copyright{
+            width: 170px;
+            font-size: 15px;
+            color: rgb(183, 181, 181);
+        }
+        #container{
+            display: flex;
+            /* margin-top: 50px; */
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="img">
+        <img src="sign_in_bg.jpg" alt="sign in background" id="sign_in_background">
+        <div>
+            <div class="box-1">
+                <div>
+                    <h1>NOT A VIP MEMBER YET?
+                    ALREADY SIGNED UP AT A STORE?</h1>
+                    <p>Become a VIP, and get 20% off, plus free shipping on anything, 5% back in Rewards, and so much more.</p>
+                    <button onclick="btn1()" id="btn1"><b>JOIN FOR FREE </b></button>
+                </div>
+            </div>
+            <div id="box-2">
+
+                    <h1>SIGN IN</h1>
+                <form action="" id="form-1">
+                    <input type="text" placeholder="Email" id="matchMail">
+                    <br>
+                    <input type="password" placeholder="Password" id="matchPwd">
+                    <br>
+                    <a href="#">Forgot Password?</a>
+                    <a href="#">Forgot Email?</a>
+                    <br>
+                    <a href="free.html">Create account</a>
+                    <br>
+                    <button  id="btn2" type="submit"><b>SIGN IN</b></button>
+                </form>
+
+                
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="container">
+            <div >
+                <div>
+                    <h3>Customer service</h3>
+                    <p>1.866.379.7463</p>
+                    <p>CUSTOMERSERVICE@DSW.COM</p>
+                    <div id="logos">
+                        <div><a href="https://twitter.com/dsw_us"><ion-icon name="logo-twitter"></ion-icon></a></div>
+                        <div><a href="https://www.pinterest.com/dsw/"><ion-icon name="logo-pinterest"></ion-icon></a></div>
+                        <div><a href="https://www.facebook.com/DSW"><ion-icon name="logo-facebook"></ion-icon></a></div>
+                        <div><a href="https://www.instagram.com/dsw"><ion-icon name="logo-instagram"></ion-icon></a></div>
+                        <div><a href="https://itunes.apple.com/us/app/dsw-designer-shoe-warehouse/id918263528?mt=8"><ion-icon name="musical-notes"></ion-icon></a></div>
+                    </div>
+                    <div id="innerbox">
+                        <div id="innerbox-1">
+                        <div id="DSW">DSW VIP</div>
+                        <div><h3 class="free_shipping">Free Shipping, Rewards & More </h3></div>
+                    </div>
+                    <button id="button-1" onclick="btn3()"><b>SIGN UP FOR FREE</b></button>
+                    </div>
+                    
+                </div>
+                <div class="copyright"><p>© 2022 Designer Brands
+                    All rights reserved</p></div>
+            </div>
+            <div id="container-1">
+                <div id="categories">
+                    <div id="categories-0">
+                        <h3>CATEGORIES</h3>
+                        <p>SHOES</p>
+                        <p>KIDS SHOES</p>
+                        <p>HANDBAGS</p>
+                        <p>ACCESSORIES</p>
+                        <p>BOOTS</p>
+                    </div>
+                    <div id="categories-1">
+                        <p >SANDALS</p>
+                        <p >RUNNIG SHOES</p>
+                        <p >SNEAKERS</p>
+                        <p >BOAT SHOES</p>
+                        <p >SOCKS</p>
+                    </div>
+                    <div id="categories-2">
+                        <p>RAIN BOOTS</p>
+                        <p>DUCK BOOTS</p>
+                        <p>PLATFORM BOOTS</p>
+                    </div>
+                </div>
+                <div id="Explore">
+                    <div id="explore-0">
+                        <h3>EXPLORE DSW</h3>
+                        <p>DSW VIP</p>
+                        <p>Store finder</p>
+                        <p>Shoe repair</p>
+                        <p>Customer service</p>
+                        <p>Return & Exchange Policy</p>
+                        <p>Careers</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div id="explore-1">
+                        <p>Accessibility Statement</p>
+                        <p>Order Status</p>
+                        <p>Gift Cards</p>
+                        <p>Supply Chain Transparency</p>
+                        <p>Philanthropy</p>
+                        <p>The W Nail Bar</p>
+                    </div>
+                    <div id="explore-2">
+                        <p>Designer Brands</p>
+                        <p>Terms of Use</p>
+                        <p>Do Not Sell or Share My Personal Information</p>
+                        <p>Comp. Value Details</p>
+                        <p>Pricing & Exclusions</p>
+                        <p>Fashion & Resources</p>
+                        <p>Potential Suppliers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
+<script>
+    let form=document.querySelector('form');
+    let data=JSON.parse(localStorage.getItem('registerDetail')) || []
+    let user=JSON.parse(localStorage.getItem('store')) || [];
+    
+
+    form.addEventListener('submit',(e)=>{
+        e.preventDefault();
+        if(matchMail.value=='admin' && matchPwd.value=='admin'){
+            window.location='Admin.html'
+        }else {
+            let isAlready=false;
+            for(let i=0; i<data.length; i++){
+                if(data[i].email==matchMail.value && data[i].password==matchPwd.value){
+                    isAlready=true;
+
+                    break;
+                    
+                }
+            }
+            console.log(isAlready);
+            if(isAlready==true){
+                
+                window.location='index.html';
+                // alert('Logged in')
+            }else if(isAlready==false){
+                alert('Wrong credentials')
+            }
+        }
+        localStorage.setItem('store',JSON.stringify(user));
+        
+
+        
+
+    })
+    // function btn2(){
+    //     // event.preventDefault();
+    //     // location.replace('http://127.0.0.1:5500/index.html')
+        
+    // }
+    function btn1(){
+        window.location='free.html'
+    }
+    function btn3(){
+        window.location='free.html'
+    }
+</script>

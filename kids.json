@@ -1,0 +1,642 @@
+[
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Franco Sarto",
+    "description": "Birkenstock has set the standard for comfortable footwear! Slip on your pair of Arizona slides and feel supported throughout the day, thanks to a contoured footbed that's anatomically formed for supreme comfort.",
+    "price": 108.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/514329_270_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 224,
+    "name": "Gracie Mary Jane Flat - Kids'",
+    "id": "20",
+    "size": [
+    8,
+    8.8,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "black"
+    ,
+    "ProductType": "Sandals"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Timberland",
+    "description": "Classic Timberland style is what you'll find in the Basic 6-Inch boot! This waterproof lace-up has a padded collar for added comfort and is built to feel sturdy on the job and during your down time.",
+    "price": 98.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/531568_400_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 524,
+    "name": "Asher Slip-On Sneaker - Kids'",
+    "id": "21",
+    "size": [
+    8,
+    8.8,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "brown"
+    ,
+    "ProductType": "Boot"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Kelly & Katie",
+    "description": "Whether you are an enthused amateur or a veteran, the Ghost 14 running shoe from Brooks is perfect for everyday, street running. The 3D Fit Print at the upper provides the stretch and structure, while the DNA LOFT cushioning midsole and Segmented Crash Pad ensure supportive landing and take-off.",
+    "price": 198.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/537511_970_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 324,
+    "name": "Littles Clog - Kids'",
+    "id": "22",
+    "size": [
+    8,
+    8.8,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    
+    "grey"
+    ,
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "New Balance",
+    "description": "Add an upgraded touch to your tailored look with the 2.ZeroGrand wingtip oxford from Cole Haan. With its lightweight GRAND.ØS cushioned footbed and foam midsole, this knit pair provides daylong comfort.",
+    "price": 198.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/540377_096_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 324,
+    "name": "Caden Snow Boot - Kids'",
+    "id": "23",
+    "size": [
+    8,
+    8.8,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+   
+    "blue"
+    ,
+    "ProductType": "Oxfords"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "adidas",
+    "description": "Whether you are an enthused amateur or a veteran, the Ghost 14 running shoe from Brooks is perfect for everyday, street running. The 3D Fit Print at the upper provides the stretch and structure, while the DNA LOFT cushioning midsole and Segmented Crash Pad ensure supportive landing and take-off.",
+    "price": 199.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/540369_017_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 324,
+    "name": "New B First Walker Shoe - Kids'",
+    "id": "24",
+    "size": [
+    8,
+    8.8,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "grey"
+    ,
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Puma",
+    "description": "Look impressive from heel to toe in the Cole Haan Go-To Wing Oxford. The gorgeous wingtip and brogue detailing on the leather upper and welt accents lend a timeless vibe, while the lightweight construction and outsole with rubber forefront and heel provide excellent comfort and traction.",
+    "price": 119.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/533172_415_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 824,
+    "name": "Alpargata Slip-On Sneaker - Kids'",
+    "id": "25",
+    "size": [
+    8,
+    8.8,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "brown"
+    ,
+    "ProductType": "Oxfords"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Stacy Adams",
+    "description": "Enhance your handsome ensemble with the Esmail  penny Loafer from Vince Camuto. These leather slip-ons feature a classic driver sole that stands out when worn with slacks or dark wash jeans.",
+    "price": 89.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/446575_015_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 524,
+    "name": "Crib Boot & Beanie - Kids'",
+    "id": "26",
+    "size": [
+    8,
+    10
+    ],
+    "color": 
+    "brown",
+    "ProductType": "Loafer"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Timberland",
+    "description": "Keep your kicks looking fresh all the time with the Graydon high-top sneaker from Timberland. This ankle boot inspired sneak features a Defender Repellent Systems® treatment to repel water and oil-based stains so your shoes will look newer for longer!",
+    "price": 89.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/515527_001_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 924,
+    "name": "New B First Walker Shoe - Kids'",
+    "id": "27",
+    "size": [
+    8,
+    9,
+    10,
+    10.5,
+    11,
+    11.5,
+    12,
+    13
+    ],
+    "color": 
+    "brown"
+    ,
+    "ProductType": "Sneaker"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Franco Sarto",
+    "description": "Redefine your shoe collection with the Axyl Loafer from Vince Camuto. This slip-on features smooth leather and antiqued metal bit detailing to pair with your best-dressed looks.",
+    "price": 79.99,
+    "image": "https://images.dsw.com/is/content/DSWShoes/510445_410_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 924,
+    "name": "Taye 2.0 Sneaker - Kids'",
+    "id": "28",
+    "size": [
+    9.5,
+    13
+    ],
+    "color": 
+    "black"
+    ,
+    "ProductType": "Loafer"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "Kelly & Katie",
+    "description": "Nothing beats the cool styling and well-loved quality of a pair of Dr. Martens. With a durable leather upper and the brand's signature rubber gum lug sole, the Combs boot is a lasting style icon that mixes combat accents with contrast yellow stitching and a matching heel pull.",
+    "price": 89.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/508654_001_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 1224,
+    "name": "Alpargata Slip-On Sneaker - Kids'",
+    "id": "29",
+    "size": [
+    8,
+    8.5,
+    9,
+    10,
+    1.5,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "black"
+    ,
+    "ProductType": "Boot"
+    },
+    {
+    "createdAt": "2023-01-14T16:02:07.661Z",
+    "brand": "adidas",
+    "description": "Everybody loves the comfort of the Crocs Classic Clog — and now there’s a toasty lined version to keep the feeling going all season! The soft, fuzzy liner adds to the cushion and comfort, indoors or out. Great as a slipper, yet capable to run errands, too! Croslite™ foam construction keeps them light and easy to wear. The pivoting heel strap gives you a secure fit, or push it forward to just step in and go.",
+    "price": 49.99,
+    "image": "https://images.dsw.com/is/image/DSWShoes/531787_650_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "Rating": 1224,
+    "name": "Dino Dan Crib Shoe - Kids'",
+    "id": "30",
+    "size": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+    ],
+    "color": 
+    "white"
+    ,
+    "ProductType": "Clog"
+    },
+    {
+        "createdAt": "2023-01-14T16:02:07.661Z",
+        "brand": "Puma",
+        "description": "The Chuck Taylor All Star High Street Hi sneaker from Converse adds that sporty appeal to any casual look. The vulcanized sole and camo-printed lining bring extra style to this lace-up.",
+        "price": 64.9,
+        "image": "https://images.dsw.com/is/image/DSWShoes/501590_660_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+        "Rating": 377,
+        "name": "Unicorn Rain Boot - Kids'",
+        "id": "33",
+        "size": [
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5
+        ],
+        "color": "beige",
+        "ProductType": "Shoes"
+        },
+        {
+        "createdAt": "2023-01-14T16:02:07.661Z",
+        "brand": "Stacy Adams",
+        "description": "Koolaburra by UGG brings you the Graisen slipper that's enhanced with thick faux fur and a cushioned footbed for unbeatable comfort. The scuff-inspired design ensures this shoe stays in place as you walk!",
+        "price": 69.9,
+        "image": "https://images.dsw.com/is/image/DSWShoes/492411_645_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+        "Rating": 664,
+        "name": "Ahi Flip Flop - Kids'",
+        "id": "34",
+        "size": [
+        8,
+        12
+        ],
+        "color":"blue",
+        "ProductType": "Slipper"
+        },
+        {
+        "createdAt": "2023-01-14T16:02:07.661Z",
+        "brand": "New Balance",
+        "description": "It’s the iconic clog that started a comfort revolution around the world! The go-to comfort shoe, the Crocs Classic Clog offers lightweight Iconic Crocs Comfort™, a color for every personality, and an ongoing invitation to be comfortable in your own shoes. This quick-drying pair is water friendly, buoyant, and designed with ventilation holes for added breathability. A pivoting heel strap secures the fit.",
+        "price": 49.9,
+        "image": "https://images.dsw.com/is/image/DSWShoes/541365_670_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+        "Rating": 864,
+        "name": "Ahi Flip Flop - Kids'",
+        "id": "35",
+        "size": [
+        6,
+        7,
+        8,
+        12,
+        13
+        ],
+        "color": 
+        "white",
+        
+        "ProductType": "Clog"
+        },
+        {
+        "createdAt": "2023-01-14T16:02:07.661Z",
+        "brand": "New Balance",
+        "description": "Everyday walks will be a bliss in the New Balance 515 sneaker. The suede and mesh sneaker comes with a NB Comfort Insert to offer you additional cushioning. With a lightweight EVA foam midsole, you get to experience increased comfort in the heel and midsole.",
+        "price": 59.9,
+        "image": "https://images.dsw.com/is/image/DSWShoes/414242_610_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+        "Rating": 264,
+        "name": "Bixby Boot - Kids'",
+        "id": "36",
+        "size": [
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        13
+        ],
+        "color": 
+        "black"
+        ,
+        "ProductType": "Sneaker"
+        },
+        {
+        "createdAt": "2023-01-14T16:02:07.661Z",
+        "brand": "Franco Sarto",
+        "description": "The rhythmic sound of new copies is paired with the high-speed clicking of your coworker’s keyboard; a reminder that the workday is nearing its end. You’re glad you decided to wear your Edsul oxford-inspired Sneaker from Crown Vintage so when you leave the office, you’ll be ready for happy hour. The sweet relief of the weekend is just a few hours away. ",
+        "price": 59.9,
+        "image": "https://images.dsw.com/is/image/DSWShoes/521084_020_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+        "Rating": 364,
+        "name": "Orange Grove Boot - Kids'",
+        "id": "37",
+        "size": [
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        13
+        ],
+        "color": "black",
+        "ProductType": "Sneaker"
+        },
+        {
+        "createdAt": "2023-01-14T16:02:07.661Z",
+        "brand": "Kelly & Katie",
+        "description": "Touch up a formal look with the laidback, cool vibes of the Haigen Loafer. This velvet piece sports a sleek silhouette that's sure to amp up favorite ensembles easily.",
+        "price": 49.9,
+        "image": "https://images.dsw.com/is/image/DSWShoes/511985_200_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+        "Rating": 364,
+        "name": "Turtles Boot - Kids'",
+        "id": "38",
+        "size": [
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        13
+        ],
+        "color": "black",
+        "ProductType": "Loafer"
+        },
+        {
+        "createdAt": "2023-01-14T16:02:07.661Z",
+        "brand": "Puma",
+        "description": "On the streets or at the gym, you feel superior comfort in the Pacer Future Street Plus sneaker from Puma. This lace-up sneaker features knit-like mesh upper with synthetic leather eyestay and midsole painting for a fresh look. The SoftFoam+ sockliner cushions your foot while the rubber outsole gives the stability to push farther.",
+        "price": 69.9,
+        "image": "https://images.dsw.com/is/image/DSWShoes/521082_650_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+        "Rating": 1264,
+        "name": "Lassen Boot - Kids'",
+        "id": "39",
+        "size": [
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        13,
+        14
+        ],
+        "color": "black",
+        "ProductType": "Sneaker"
+        },
+        {
+        "createdAt": "2023-01-14T16:02:07.661Z",
+        "brand": "Timberland",
+        "description": "Be inspired by the Timberland Davis Square boot for its style and eco-friendliness. The Better Leather and ReBOTL fabric containing at least 50% recycled plastic contribute to a sustainable planet. Padded collar and Ortholite footbed ensure reliable comfort and support.",
+        "price": 99.99,
+        "image": "https://images.dsw.com/is/image/DSWShoes/407944_020_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+        "Rating": 264,
+        "name": "Champion Sneaker - Kids'",
+        "id": "40",
+        "size": [
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        13
+        ],
+        "color": "brown",
+        "ProductType": "Boot"
+        },
+        {
+        "createdAt": "2023-01-14T16:02:07.661Z",
+        "brand": "adidas",
+        "description": "Take to the track or the sidewalk in the Kaptir 2.0 running shoe from adidas. This pair sports an EVA midsole and lightweight design made to keep you running, while the sleek look highlights casual ensembles with ease.",
+        "price": 89.9,
+        "image": "https://images.dsw.com/is/image/DSWShoes/524818_100_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+        "Rating": 264,
+        "name": "Classic Clog - Kids'",
+        "id": "41",
+        "size": [
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        13
+        ],
+        "color": "blue",
+        "ProductType": "Athletic"
+        },
+        {
+        "createdAt": "2023-01-14T16:02:07.661Z",
+        "brand": "adidas",
+        "description": "Take your look from the court to the street with the Hoops 3.0 Mid Sneaker from adidas. These basketball-inspired shoes feature a padded collar and high-top design for extra support.",
+        "price": 64.9,
+        "image": "https://images.dsw.com/is/image/DSWShoes/483037_271_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+        "Rating": 1024,
+        "name": "Ward Sneaker - Kids'",
+        "id": "42",
+        "size": [
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        13
+        ],
+        "color": "black",
+        "ProductType": "Sneaker"
+        },
+        {
+            "createdAt": "2023-01-14T16:02:07.661Z",
+            "brand": "Stacy Adams",
+            "description": "For days that are reserved for lounging on the couch, you need a shoe that offers maximum comfort. The Big Horn moccasin from Crown Vintage are super cozy yet offer support for those super important trips… to the fridge.",
+            "price": 29.9,
+            "image": "https://images.dsw.com/is/image/DSWShoes/514871_420_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+            "Rating": 24,
+            "name": "Shimmer Flat - Kids'",
+            "id": "43",
+            "size": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            11,
+            12,
+            13
+            ],
+            "color": "grey",
+            "ProductType": "Slipper"
+            },
+            {
+            "createdAt": "2023-01-14T16:02:07.661Z",
+            "brand": "Franco Sarto",
+            "description": "Once the days begin to shorten and cool breezes become more common, upgrade your footwear to something more durable. The Signy Boot from Crown Vintage are made with sturdy materials that are ideal for the unpredictable weather that comes with the cooler seasons. ",
+            "price": 69.9,
+            "image": "https://images.dsw.com/is/image/DSWShoes/543353_500_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+            "Rating": 24,
+            "name": "Hoops Mid 3.0 Sneaker - Kids'",
+            "id": "44",
+            "size": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            11,
+            12,
+            13
+            ],
+            "color": "brown",
+            "ProductType": "Boot"
+            },
+            {
+            "createdAt": "2023-01-14T16:02:07.661Z",
+            "brand": "New Balance",
+            "description": "The New Balance 237 sneaker can amplify your modern looks. This lace-up sneaker has a streamlined suede upper and herringbone sole takes you back to the time when running shoes were introduced. On the other hand, the oversized N logo, extended midsole length, and gator inspired foxing and mudguard make contemporary style come alive in this sneaker.",
+            "price": 69.9,
+            "image": "https://images.dsw.com/is/image/DSWShoes/501590_660_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+            "Rating": 524,
+            "name": "RapidaSport Sneaker - Kids'",
+            "id": "45",
+            "size": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5,
+            11,
+            12,
+            13
+            ],
+            "color": "beige",
+            "ProductType": "Sneaker"
+            },
+            {
+            "createdAt": "2023-01-14T16:02:07.661Z",
+            "brand": "Puma",
+            "description": "The Puma Ever FS sneaker is a clean, minimalist design that makes a great addition to your footwear rotation. The tumbled leather upper with formstrips is complemented with an elevated cupsole, while the padded collar and SoftFoam+ sockliner provide cushioning support.",
+            "price": 59.9,
+            "image": "https://images.dsw.com/is/image/DSWShoes/514330_001_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+            "Rating": 2524,
+            "name": "Hoops Mid 3.0 Sneaker - Kids'",
+            "id": "46",
+            "size": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5,
+            11,
+            12,
+            13
+            ],
+            "color": "white",
+            "ProductType": "Sneaker"
+            },
+            {
+            "createdAt": "2023-01-14T16:02:07.661Z",
+            "brand": "Timberland",
+            "description": "A true classic that will never go out of style. This cap toe leather oxford is a Vince Camuto design that's ready for the boardroom or a special night out. Simple stitching out paneled upper, light burnishing defines the toe, and a hint of print lines the interior.",
+            "price": 88.9,
+            "image": "https://images.dsw.com/is/image/DSWShoes/520760_001_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+            "Rating": 524,
+            "name": "Tiffany Wedge Pump - Kids'",
+            "id": "47",
+            "size": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5,
+            11,
+            12,
+            13
+            ],
+            "color":"black",
+            "ProductType": "Oxfords"
+            },
+            {
+            "createdAt": "2023-01-14T16:02:07.661Z",
+            "brand": "Kelly & Katie",
+            "description": "Stay stylish and protected at the same time in the Rockport Weather Or Not chukka boot. The Hydro-Shield waterproof technology ensures a stay-dry experience while the padded collar and tongue of this rain boot lets you enjoy plush comfort.",
+            "price": 88.9,
+            "image": "https://images.dsw.com/is/image/DSWShoes/527608_934_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+            "Rating": 824,
+            "name": "Racer TR21 Sneaker - Kids'",
+            "id": "48",
+            "size": [
+            7,
+            7.5,
+            8,
+            10,
+            12
+            ],
+            "color": "brown",
+            "ProductType": "Boot"
+            },
+            {
+                "createdAt": "2023-01-14T16:02:07.661Z",
+                "brand": "Stacy Adams",
+                "description": "A true classic, the Hawthorne oxford from Cole Haan makes you ready to take on anything the day brings. Made of leather, this lace-up comes with Grand.OS comfort technology",
+                "price": 128.9,
+                "image": "https://images.dsw.com/is/image/DSWShoes/530418_001_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+                "Rating": 924,
+                "name": "Bella Bootie - Kids'",
+                "id": "49",
+                "size": [
+                8,
+                8.8,
+                9,
+                10,
+                1.5,
+                11,
+                12,
+                13
+                ],
+                "color": "brown",
+                "ProductType": "Oxfords"
+                }
+]
