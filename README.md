@@ -1,11 +1,11 @@
 # spotless-thumb-400-
 
-*First Step - Footwear Ecommerce Website*
+**First Step - Footwear Ecommerce Website**
 Welcome to First Step, an ecommerce website for purchasing footwear. Our website is designed to make it easy for you to browse and purchase a wide variety of shoes, from casual to formal, at competitive prices.
 
 This website is a collaboration project by Saikumar, Taniya, Vinayaka, Shaquib and Swati. The website is built using Javascript, HTML, and CSS. We have used APIs to render the products.
 
-#Features
+Features
 A wide variety of footwear for men, women, and children.
 Easy navigation and search functionality.
 Secure checkout process.
