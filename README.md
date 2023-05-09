@@ -4,7 +4,7 @@
 
 Welcome to First Step, an ecommerce website for purchasing footwear. Our website is designed to make it easy for you to browse and purchase a wide variety of shoes, from casual to formal, at competitive prices.
 
-This website is a collaboration project by Saikumar, Taniya, Vinayaka, Shaquib and Swati. The website is built using Javascript, HTML, and CSS. We have used APIs to render the products.
+This website is a collaboration project by sandru Saikumar, Taniya, Vinayaka, Shaquib and Swati. The website is built using Javascript, HTML, and CSS. We have used APIs to render the products.
 
 **Features**
 
