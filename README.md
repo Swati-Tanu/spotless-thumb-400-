@@ -25,4 +25,6 @@ A sample of our website is available at: https://superb-sunflower-b41641.netlify
 
 If you have any questions or feedback, please contact us at: info@firststep.com. We are always happy to hear from our customers and are dedicated to providing the best possible shopping experience.
 
-Thank you for visiting First Step!
+**"Suggestions and project Improvements are Invited!"**  
+  
+**Thanks You**
